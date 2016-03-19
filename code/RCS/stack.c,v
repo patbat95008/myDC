@@ -1,0 +1,2314 @@
+head	1.105;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.105
+date	2014.03.03.00.05.22;	author -;	state -;
+branches;
+next	1.104;
+
+1.104
+date	2014.03.03.00.04.54;	author -;	state -;
+branches;
+next	1.103;
+
+1.103
+date	2014.03.03.00.02.12;	author -;	state -;
+branches;
+next	1.102;
+
+1.102
+date	2014.03.02.23.53.42;	author -;	state -;
+branches;
+next	1.101;
+
+1.101
+date	2014.03.02.23.50.01;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2014.03.02.01.00.21;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2014.03.02.00.59.23;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2014.03.02.00.59.08;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2014.03.02.00.57.26;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2014.03.02.00.54.38;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2014.03.02.00.52.48;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2014.03.02.00.51.10;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2014.03.02.00.50.28;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2014.03.02.00.42.28;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2014.03.01.23.30.15;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2014.03.01.23.29.48;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2014.03.01.23.29.22;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2014.03.01.23.24.21;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2014.03.01.23.22.59;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2014.03.01.23.10.33;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2014.03.01.23.09.47;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2014.03.01.23.09.01;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2014.03.01.22.26.04;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2014.03.01.22.25.21;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2014.03.01.22.24.11;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2014.03.01.22.22.38;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2014.03.01.22.22.10;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2014.03.01.22.17.55;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2014.03.01.22.16.45;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2014.03.01.22.15.33;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2014.03.01.22.14.50;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2014.03.01.22.14.02;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2014.03.01.22.13.13;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2014.03.01.22.11.59;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2014.03.01.22.06.36;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2014.03.01.21.08.42;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2014.03.01.20.48.43;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2014.03.01.20.48.01;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2014.03.01.20.30.10;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2014.03.01.20.29.27;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2014.03.01.20.29.08;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2014.03.01.20.26.21;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2014.03.01.20.25.06;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2014.03.01.20.16.20;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2014.03.01.20.12.12;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2014.03.01.20.06.07;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2014.03.01.20.01.50;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2014.03.01.20.00.17;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2014.03.01.19.57.47;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2014.03.01.19.57.08;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2014.03.01.19.55.43;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2014.03.01.19.55.13;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2014.03.01.19.48.16;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2014.03.01.05.54.55;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2014.03.01.05.54.15;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2014.03.01.05.52.50;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2014.03.01.05.49.48;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2014.03.01.05.49.20;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2014.03.01.05.48.58;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2014.03.01.05.47.42;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2014.03.01.05.46.32;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2014.03.01.05.45.58;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2014.03.01.05.43.44;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2014.03.01.05.42.08;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2014.03.01.04.16.46;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2014.03.01.04.16.03;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2014.03.01.03.42.22;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2014.03.01.03.41.56;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2014.03.01.03.38.55;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2014.03.01.03.37.42;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2014.03.01.03.37.30;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2014.03.01.03.35.01;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2014.03.01.03.32.15;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2014.03.01.03.31.44;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2014.03.01.03.29.47;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2014.03.01.03.28.57;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2014.03.01.03.26.58;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2014.03.01.03.22.26;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2014.03.01.03.08.00;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2014.03.01.03.06.21;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2014.03.01.03.02.23;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2014.03.01.03.02.06;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2014.03.01.03.00.18;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2014.03.01.02.47.36;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2014.03.01.02.17.08;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2014.03.01.02.15.33;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2014.03.01.01.02.20;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2014.03.01.01.00.37;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2014.03.01.00.59.49;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2014.03.01.00.47.10;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2014.02.28.22.33.19;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2014.02.28.22.30.59;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2014.02.28.22.29.47;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2014.02.28.22.21.06;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.05.16.22.07.42;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.05.16.20.26.00;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.05.09.05.09.41;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.05.09.01.53.30;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.05.08.04.14.09;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.05.02.21.15.47;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.19.22.46.04;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.19.22.44.03;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.19.22.43.38;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.19.20.32.38;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.16.03.41.09;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.105
+log
+@-
+@
+text
+@// Patrick Russell pcrussel
+// $Id: stack.c,v 1.104 2014-03-02 16:04:54-08 - - $
+
+#include <assert.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "stack.h"
+#include "debug.h"
+
+#define DEFAULT_CAPACITY 16
+
+struct stack {
+   size_t capacity;
+   size_t size;
+   stack_item *data;
+};
+
+
+stack *new_stack (void) {
+   stack *this = malloc (sizeof (stack));
+   assert (this != NULL);
+   this->capacity = DEFAULT_CAPACITY;
+   this->size = 0;
+   this->data = calloc (this->capacity, sizeof (stack_item));
+   assert (this->data != NULL);
+   return this;
+}
+
+void free_stack (stack *this) {
+   assert (empty_stack (this));
+   free (this->data);
+   free (this);
+}
+
+static bool full_stack (stack *this) {
+   return this->size == this->capacity;
+}
+
+static void realloc_stack (stack *this) {
+   size_t old_capacity = this->capacity;
+   this->capacity *= 2;
+   this->data = realloc (this->data, this->capacity);
+   memset (this->data + old_capacity, 0, old_capacity);
+   assert (this->data != NULL);
+}
+
+
+//push an item onto the front of the stack
+void push_stack (stack *this, stack_item item) {
+   if (full_stack (this)) realloc_stack (this);
+   size_t location =  this->size;
+   this->data[location] = item;
+   this->size++;
+}
+
+//pops the first item off of the stack
+stack_item pop_stack (stack *this) {
+   assert (! empty_stack (this));
+   size_t top = this->size - 1;
+   stack_item return_this = this->data[top];
+   this->size--;
+   return return_this;
+}
+
+//prints out the item located in the given index
+stack_item peek_stack (stack *this, size_t index) {
+   assert (index < size_stack(this)); 
+   return this->data[index];
+}
+
+stack_item first_item (stack *this){
+   assert (size_stack(this) > 0);
+   return this->data[size_stack(this) - 1];
+}
+
+bool empty_stack (stack *this) {
+   return size_stack (this) == 0;
+}
+
+size_t size_stack (stack *this) {
+   return this->size;
+}
+
+void show_stack (stack *this) {
+   fprintf (stderr, "stack@@%p->{%lu,%lu,%p}\n",
+            this, this->capacity, this->size, this->data);
+}
+
+@
+
+
+1.104
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.103 2014-03-02 16:02:12-08 - - $
+d75 1
+a75 1
+   return this->data[size_stack(this)];
+@
+
+
+1.103
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.102 2014-03-02 15:53:42-08 - - $
+d74 1
+a74 1
+   assert (index < size_stack(this));
+@
+
+
+1.102
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.101 2014-03-02 15:50:01-08 - - $
+d69 5
+d75 1
+a75 2
+   DEBUGS ('s', show_stack (this)); 
+   return this->data[index];
+@
+
+
+1.101
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.100 2014-03-01 17:00:21-08 - - $
+a63 5
+   /*size_t i = 0;
+   for(;i < sizeof(this->data); i++){
+      if(this->data[i+1] == NULL) break;
+      this->data[i] = this->data[i+1];
+   }*/
+a64 1
+   //STUB (return NULL;)
+a71 1
+   //STUB (return NULL;)
+@
+
+
+1.100
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.99 2014-03-01 16:59:23-08 - - $
+a54 1
+   printf("location = %u\n", location);
+@
+
+
+1.99
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.98 2014-03-01 16:59:08-08 - - $
+a76 2
+   if(index == 0) return this->data[this->size - 1];
+   size_t top = this->size - 1;
+d78 1
+a78 1
+   return this->data[top];
+@
+
+
+1.98
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.97 2014-03-01 16:57:26-08 - - $
+d77 1
+a77 1
+   if(index = 0) return this->data[this->size - 1];
+@
+
+
+1.97
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.96 2014-03-01 16:54:38-08 - - $
+d77 1
+a77 1
+   (void)index;
+@
+
+
+1.96
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.95 2014-03-01 16:52:48-08 - - $
+d55 1
+a55 1
+   //printf("this->data: %i\n", get_digits(this->data[location]));
+a61 1
+   printf("pop_stack called\n");
+@
+
+
+1.95
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.94 2014-03-01 16:51:10-08 - - $
+d62 1
+@
+
+
+1.94
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.93 2014-03-01 16:50:28-08 - - $
+d62 2
+a63 1
+   stack_item return_this = this->data[this->size];
+@
+
+
+1.93
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.92 2014-03-01 16:42:28-08 - - $
+d77 1
+a77 1
+   size_t top = this->size;
+@
+
+
+1.92
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.91 2014-03-01 15:30:15-08 - - $
+d76 2
+d79 1
+a79 1
+   return this->data[index];
+@
+
+
+1.91
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.90 2014-03-01 15:29:48-08 - - $
+a63 1
+
+@
+
+
+1.90
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.89 2014-03-01 15:29:22-08 - - $
+a53 1
+   printf("location: %u\n", location);
+d55 1
+a55 1
+   printf("this->data: %i\n", get_digits(this->data[location]));
+@
+
+
+1.89
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.88 2014-03-01 15:24:21-08 - - $
+d64 1
+a64 1
+   size --;
+@
+
+
+1.88
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.87 2014-03-01 15:22:59-08 - - $
+d63 4
+a66 3
+   //free(this->data);
+   stack_item return_this = this->data[0];
+   size_t i = 0;
+d70 1
+a70 1
+   }
+@
+
+
+1.87
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.86 2014-03-01 15:10:33-08 - - $
+d53 1
+a53 1
+   size_t location = this->capacity - this->size;
+@
+
+
+1.86
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.85 2014-03-01 15:09:47-08 - - $
+d53 2
+a54 1
+   size_t location = this->size;
+a55 1
+   //printf("item = %i\n", get_digits(item));
+@
+
+
+1.85
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.84 2014-03-01 15:09:01-08 - - $
+d56 1
+a56 1
+   printf("this->data: %s\n", get_digits(this->data[location]));
+@
+
+
+1.84
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.83 2014-03-01 14:26:04-08 - - $
+d55 2
+a56 2
+   printf("item = %i\n", get_digits(item));
+   printf("this->data: %s\n", this->data[location]);
+@
+
+
+1.83
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.82 2014-03-01 14:25:21-08 - - $
+d55 1
+a55 1
+   printf("item = %s\n", item);
+@
+
+
+1.82
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.81 2014-03-01 14:24:11-08 - - $
+d55 1
+a55 1
+   printf("item = %s", item);
+@
+
+
+1.81
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.80 2014-03-01 14:22:38-08 - - $
+d54 2
+a55 1
+   this->data[1] = item;
+@
+
+
+1.80
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.79 2014-03-01 14:22:10-08 - - $
+d54 1
+a54 1
+   this->data[0] = item;
+@
+
+
+1.79
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.78 2014-03-01 14:17:55-08 - - $
+d54 1
+a54 1
+   this->data = item;
+@
+
+
+1.78
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.77 2014-03-01 14:16:45-08 - - $
+d54 2
+a55 2
+   this->data[location] = item;
+   printf("%s\n", this->data[location]);
+@
+
+
+1.77
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.76 2014-03-01 14:15:33-08 - - $
+d54 2
+a55 1
+   this->data[location + 1] = item;
+@
+
+
+1.76
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.75 2014-03-01 14:14:50-08 - - $
+a17 1
+   stack *link;
+d54 1
+a54 1
+   this->data[location] = item;
+@
+
+
+1.75
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.74 2014-03-01 14:14:02-08 - - $
+d54 1
+a54 2
+   //this->size++;
+   size_t location = 0;
+d56 1
+@
+
+
+1.74
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.73 2014-03-01 14:13:13-08 - - $
+d54 2
+a55 2
+   this->size++;
+   size_t location = this->size;
+@
+
+
+1.73
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.72 2014-03-01 14:11:59-08 - - $
+d54 2
+a55 1
+   size_t location = this->size + 1;
+a56 1
+   this->size++;
+@
+
+
+1.72
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.71 2014-03-01 14:06:36-08 - - $
+d64 2
+a65 2
+   int i = 0;
+   for(;i<sizeof(this->data); i++){
+@
+
+
+1.71
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.70 2014-03-01 13:08:42-08 - - $
+d54 1
+a54 1
+   size_t location = this->size;
+@
+
+
+1.70
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.69 2014-03-01 12:48:43-08 - - $
+d56 1
+a56 1
+   //this->size++;
+d70 1
+a70 1
+   STUB (return NULL;)
+@
+
+
+1.69
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.68 2014-03-01 12:48:01-08 - - $
+d63 7
+a69 1
+   //printf("pop_stack: %n\n", return_item);
+@
+
+
+1.68
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.67 2014-03-01 12:30:10-08 - - $
+d56 1
+a56 1
+   this->size++;
+@
+
+
+1.67
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.66 2014-03-01 12:29:27-08 - - $
+d54 1
+a54 1
+   size_t location = this->size + 1;
+d56 1
+a56 1
+   //this->size++;
+@
+
+
+1.66
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.65 2014-03-01 12:29:08-08 - - $
+d56 1
+a56 1
+   this->size++;
+d70 2
+a71 3
+   DEBUGS ('s', show_stack (this));
+   printf("%d\n", this->data[index]);
+   return this->data[0];
+@
+
+
+1.65
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.64 2014-03-01 12:26:21-08 - - $
+d72 1
+a72 1
+   return this->data;
+@
+
+
+1.64
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.63 2014-03-01 12:25:06-08 - - $
+d72 1
+a72 1
+   return this->data[index];
+@
+
+
+1.63
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.62 2014-03-01 12:16:20-08 - - $
+d71 1
+a71 1
+   printf("%s\n", this->data[index]);
+@
+
+
+1.62
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.61 2014-03-01 12:12:12-08 - - $
+d71 1
+@
+
+
+1.61
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.60 2014-03-01 12:06:07-08 - - $
+a55 1
+   printf("this->data[%u]: %d\n", location, this->data[location]);
+@
+
+
+1.60
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.59 2014-03-01 12:01:50-08 - - $
+a21 3
+stack *front = NULL;
+stack *rear = NULL;
+
+d56 1
+a56 1
+   printf("this->data[%u]: %u\n", location, this->data[location]);
+@
+
+
+1.59
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.58 2014-03-01 12:00:17-08 - - $
+a72 1
+   printf("size_stack(this): %u\n", size_stack(this));
+d74 1
+a74 2
+   printf("keep believing\n");
+   DEBUGS ('s', show_stack (this)); 
+@
+
+
+1.58
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.57 2014-03-01 11:57:47-08 - - $
+d75 1
+d77 2
+a78 1
+   STUB (return NULL;)
+@
+
+
+1.57
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.56 2014-03-01 11:57:08-08 - - $
+d59 1
+a59 1
+   printf("this->data[%u]: %u\n", location, this->data);
+d73 1
+a73 1
+   //printf("size_stack(this): %u\n", size_stack(this));
+@
+
+
+1.56
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.55 2014-03-01 11:55:43-08 - - $
+d59 1
+a59 1
+   printf("this->data[%u]: %d", location, this->data);
+@
+
+
+1.55
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.54 2014-03-01 11:55:13-08 - - $
+d59 1
+@
+
+
+1.54
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.53 2014-03-01 11:48:16-08 - - $
+d58 1
+a58 1
+   &this->data[location] = item;
+@
+
+
+1.53
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.52 2014-02-28 21:54:55-08 - - $
+d57 3
+@
+
+
+1.52
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.51 2014-02-28 21:54:15-08 - - $
+d18 1
+a20 5
+typedef struct node node;
+struct node{
+   stack_item value;
+   node *link;
+};
+d22 2
+a23 2
+node *front = NULL;
+node *rear = NULL;
+a56 5
+   node *tmp = malloc(sizeof(struct node));
+   tmp->value = item;
+   tmp->link = front;
+   front = tmp;
+   this->size++;
+a61 2
+   stack_item return_item = malloc(sizeof(stack_item));
+   return_item = *this->data;
+d64 1
+a64 1
+   return return_item;
+@
+
+
+1.51
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.50 2014-02-28 21:52:50-08 - - $
+d82 1
+a82 2
+   DEBUGS ('s', show_stack (this));
+   return this->data; 
+@
+
+
+1.50
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.49 2014-02-28 21:49:48-08 - - $
+d83 1
+a83 1
+   return size_stack(this);
+@
+
+
+1.49
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.48 2014-02-28 21:49:20-08 - - $
+d65 1
+a65 1
+//   this->size++;
+d83 1
+@
+
+
+1.48
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.47 2014-02-28 21:48:58-08 - - $
+d81 1
+a81 1
+   assert (index <= size_stack(this));
+@
+
+
+1.47
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.46 2014-02-28 21:47:42-08 - - $
+d80 1
+a80 1
+   printf("size_stack(this): %u\n", size_stack(this));
+@
+
+
+1.46
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.45 2014-02-28 21:46:32-08 - - $
+d65 1
+a65 1
+   this->size++;
+d80 2
+a81 2
+//   printf("size_stack(this): %u\n", size_stack(this));
+//   assert (index < size_stack(this));
+@
+
+
+1.45
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.44 2014-02-28 21:45:58-08 - - $
+d65 1
+a65 1
+   size_add(this);
+d80 2
+a81 2
+   printf("size_stack(this): %u\n", size_stack(this));
+   assert (index < size_stack(this));
+a89 4
+void size_add(stack *this){
+   this->size++;
+}
+
+@
+
+
+1.44
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.43 2014-02-28 21:43:44-08 - - $
+d65 1
+a65 1
+   this->size++;
+@
+
+
+1.43
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.42 2014-02-28 21:42:08-08 - - $
+d90 4
+@
+
+
+1.42
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.41 2014-02-28 20:16:46-08 - - $
+d65 1
+a65 1
+   //this->size++;
+@
+
+
+1.41
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.40 2014-02-28 20:16:03-08 - - $
+d80 1
+@
+
+
+1.40
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.39 2014-02-28 19:42:22-08 - - $
+d65 1
+a65 2
+   this->size++;
+   printf("this->size: %u\n", size_stack(this));
+@
+
+
+1.39
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.38 2014-02-28 19:41:56-08 - - $
+a80 2
+   //printf("this_size: %u > index: %u\n", size_stack(this), index);
+   printf("before assert");
+d82 1
+a82 3
+   printf("got to peek_stack");
+   //return this->data;
+   //DEBUGS ('s', show_stack (this));
+@
+
+
+1.38
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.37 2014-02-28 19:38:55-08 - - $
+d81 1
+a81 1
+   printf("this_size: %u > index: %u\n", size_stack(this), index);
+@
+
+
+1.37
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.36 2014-02-28 19:37:42-08 - - $
+d82 1
+@
+
+
+1.36
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.35 2014-02-28 19:37:30-08 - - $
+d66 1
+a66 1
+   printf("this->size: %u\n", this->size);
+@
+
+
+1.35
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.34 2014-02-28 19:35:01-08 - - $
+d83 1
+a83 1
+   /printf("got to peek_stack");
+@
+
+
+1.34
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.33 2014-02-28 19:32:15-08 - - $
+d81 3
+a83 3
+   //printf("this_size: %u > index: %u\n", this->size, index);
+   assert (index < sizeof(this->size));
+   //printf("got to peek_stack");
+@
+
+
+1.33
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.32 2014-02-28 19:31:44-08 - - $
+d75 1
+a75 1
+   printf("pop_stack: %n\n", return_item);
+d81 3
+a83 3
+   printf("this_size: %u > index: %u\n", this->size, index);
+   assert (index < this->size);
+   printf("got to peek_stack");
+@
+
+
+1.32
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.31 2014-02-28 19:29:47-08 - - $
+d84 1
+a84 1
+   return this->data;
+@
+
+
+1.31
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.30 2014-02-28 19:28:57-08 - - $
+d82 1
+a82 1
+   //assert (index < this->size);
+d84 1
+d86 1
+a86 1
+   //STUB (return NULL;)
+@
+
+
+1.30
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.29 2014-02-28 19:26:58-08 - - $
+d82 1
+a82 1
+   assert (index < this->size);
+@
+
+
+1.29
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.28 2014-02-28 19:22:26-08 - - $
+d82 1
+a82 1
+   assert (index < size_stack (this));
+@
+
+
+1.28
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.27 2014-02-28 19:08:00-08 - - $
+d81 1
+d83 3
+a85 2
+   DEBUGS ('s', show_stack (this));
+   STUB (return NULL;)
+@
+
+
+1.27
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.26 2014-02-28 19:06:21-08 - - $
+d65 2
+a66 2
+   
+   printf("push_stack: %p\n", tmp->value);
+@
+
+
+1.26
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.25 2014-02-28 19:02:23-08 - - $
+d65 1
+a65 1
+   this->size++;
+@
+
+
+1.25
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.24 2014-02-28 19:02:06-08 - - $
+d65 1
+@
+
+
+1.24
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.23 2014-02-28 19:00:18-08 - - $
+d65 1
+a65 1
+   printf("push_stack: %p\n", *tmp->value);
+@
+
+
+1.23
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.22 2014-02-28 18:47:36-08 - - $
+d65 1
+a65 1
+   printf("push_stack: %s\n", tmp->value);
+@
+
+
+1.22
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.21 2014-02-28 18:17:08-08 - - $
+d65 1
+a65 1
+   printf("push_stack: %n\n", tmp->value);
+@
+
+
+1.21
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.20 2014-02-28 18:15:33-08 - - $
+d65 1
+a65 2
+   //DEBUGS ('s', show_stack (this));
+   //DEBUGF ('s', "item=%p\n", item);
+d74 1
+a75 2
+   //DEBUGS ('s', show_stack (this));
+   //STUB (return NULL;)
+@
+
+
+1.20
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.19 2014-02-28 17:02:20-08 - - $
+a17 2
+   node *front;
+   node *rear;
+d20 1
+d26 2
+@
+
+
+1.19
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.18 2014-02-28 17:00:37-08 - - $
+d18 2
+a19 1
+   stack *link;
+d22 4
+d57 1
+a57 1
+//push an item onto the stack
+d60 6
+a65 3
+   
+   DEBUGS ('s', show_stack (this));
+   DEBUGF ('s', "item=%p\n", item);
+d73 1
+a73 1
+   free(this->data);
+@
+
+
+1.18
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.17 2014-02-28 16:59:49-08 - - $
+d61 1
+a61 1
+stack_item *pop_stack (stack *this) {
+d63 2
+a64 2
+   stack_item *return_item = malloc(sizeof(stack_item));
+   return_item = this->data;
+@
+
+
+1.17
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.16 2014-02-28 16:47:10-08 - - $
+d61 1
+a61 1
+stack_item pop_stack (stack *this) {
+@
+
+
+1.16
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.15 2014-02-28 14:33:19-08 - - $
+d61 1
+a61 1
+stack_item *op_stack (stack *this) {
+@
+
+
+1.15
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.14 2014-02-28 14:30:59-08 - - $
+d67 2
+a68 2
+   DEBUGS ('s', show_stack (this));
+   STUB (return NULL;)
+@
+
+
+1.14
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.13 2014-02-28 14:29:47-08 - - $
+d61 1
+a61 1
+stack_item pop_stack (stack *this) {
+@
+
+
+1.13
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.12 2014-02-28 14:21:06-08 - - $
+d21 1
+a21 2
+stack front = NULL;
+stack rear = NULL;
+d63 1
+a63 1
+   stack_item return_item = malloc(sizeof(stack_item));
+@
+
+
+1.12
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: stack.c,v 1.11 2013-05-16 15:07:42-07 - - $
+d18 1
+d21 3
+d56 1
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 2
+a2 1
+// $Id: stack.c,v 1.10 2013-05-16 13:26:00-07 - - $
+d49 1
+d56 1
+d59 4
+d67 1
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.9 2013-05-08 22:09:41-07 - - $
+d40 1
+d43 1
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.8 2013-05-08 18:53:30-07 - - $
+a58 1
+   assert (index >= 0);
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.7 2013-05-07 21:14:09-07 - - $
+d40 3
+a42 3
+   stack->capacity *= 2;
+   stack->data = realloc (stack->data, stack->capacity);
+   assert (stack->data != NULL);
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.6 2013-05-02 14:15:47-07 - - $
+d35 10
+d47 1
+d58 1
+a58 1
+stack_item peek_stack (stack *this, int index) {
+d69 1
+a69 1
+int size_stack (stack *this) {
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.5 2013-02-19 14:46:04-08 - - $
+d9 1
+d11 1
+a11 1
+typedef struct stack_node stack_node;
+d14 1
+d16 1
+a16 6
+   stack_node *top;
+};
+
+struct stack_node {
+   stack_item item;
+   stack_node *link;
+d20 7
+a26 5
+   stack *stack = malloc (sizeof (stack));
+   assert (stack != NULL);
+   stack->size = 0;
+   stack->top = NULL;
+   return stack;
+d29 4
+a32 3
+void free_stack (stack *stack) {
+   assert (empty_stack (stack));
+   free (stack);
+d36 3
+a38 1
+void push_stack (stack *stack, stack_item item) {
+d41 4
+a44 2
+stack_item pop_stack (stack *stack) {
+   assert (! empty_stack (stack));
+d47 1
+a47 1
+stack_item peek_stack (stack *stack, int index) {
+d49 7
+a55 1
+   assert (index < size_stack (stack));
+d58 2
+a59 2
+bool empty_stack (stack *stack) {
+   return size_stack (stack) == 0;
+d62 3
+a64 2
+int size_stack (stack *stack) {
+   return stack->size;
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.4 2013-02-19 14:44:03-08 - - $
+a11 3
+static char *stack_tag = "struct stack";
+static char *stack_node_tag = "struct stack_node";
+
+d13 1
+a13 2
+   char *tag;
+   size_t length;
+a17 1
+   char *tag;
+d23 1
+a23 1
+   stack *stack = malloc (sizeof (struct stack));
+d25 1
+a25 2
+   stack->tag = stack_tag;
+   stack->length = 0;
+d31 1
+a31 3
+   assert (is_stack (stack));
+   assert (is_empty_stack (stack));
+   memset (stack, 0, sizeof stack);
+a36 1
+   assert (is_stack (stack));
+d40 1
+a40 2
+   assert (is_stack (stack));
+   assert (! is_empty_stack (stack));
+a43 1
+   assert (is_stack (stack));
+d45 1
+a45 6
+   assert (index < length_stack (stack));
+}
+
+bool is_empty_stack (stack *stack) {
+   assert (is_stack (stack));
+   return length_stack (stack) == 0;
+d48 2
+a49 3
+int length_stack (stack *stack) {
+   assert (is_stack (stack));
+   return stack->length;
+d52 2
+a53 2
+bool is_stack (stack *stack) {
+   return stack != NULL && stack->tag == stack_tag;
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.3 2013-02-19 14:43:38-08 - - $
+d43 1
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.2 2013-02-19 12:32:38-08 - - $
+d6 1
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.1 2013-02-15 19:41:09-08 - - $
+d3 1
+d5 1
+a5 1
+#include <assert.h>
+d27 6
+a32 1
+   return NULL;
+d38 2
+a48 1
+   return NULL;
+a54 1
+   return NULL;
+d59 1
+a59 1
+   return false;
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: stack.c,v 1.3 2012-03-06 16:27:19-08 - - $
+d15 1
+d58 1
+a58 1
+   return 0;
+d62 1
+a62 1
+   return false;
+@

@@ -1,0 +1,416 @@
+head	1.11;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.11
+date	2014.03.03.05.19.37;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2014.03.01.03.41.56;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2014.03.01.03.40.13;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.05.16.22.14.31;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.05.09.05.09.41;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.05.08.04.14.09;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.05.04.02.33.54;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.05.02.21.15.47;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.26.00.58.16;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.19.22.47.14;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.16.03.41.09;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@-
+@
+text
+@// Patrick Russell pcrussel
+// $Id: token.c,v 1.10 2014-02-28 19:41:56-08 - - $
+
+#include <assert.h>
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "token.h"
+#include "debug.h"
+
+#define INIT_CAPACITY 16
+
+struct token {
+   FILE *file;
+   size_t capacity;
+   size_t size;
+   int token;
+   char *buffer;
+};
+
+token *new_token (FILE *file) {
+   token *this = malloc (sizeof (token));
+   assert (this != NULL);
+   this->file = file;
+   this->capacity = INIT_CAPACITY;
+   this->buffer = malloc (this->capacity);
+   assert (this->buffer != NULL);
+   this->buffer[0] = '\0';
+   this->size = 0;
+   this->token = 0;
+   return this;
+}
+
+void free_token (token *this) {
+   free (this->buffer);
+   free (this);
+}
+
+char *peek_token (token *this) {
+   return this->buffer;
+}
+
+
+void ensure_capacity (token *this, size_t capacity) {
+   if (capacity > this->capacity) {
+      size_t double_capacity = this->capacity * 2;
+      this->capacity = capacity > double_capacity
+                     ? capacity : double_capacity;
+      this->buffer = realloc (this->buffer, this->capacity);
+      assert (this->buffer);
+   }
+}
+
+int scan_token (token *this) {
+   this->size = 0;
+   this->buffer[this->size] = '\0';
+   int result = EOF;
+   int nextchar = 0;
+   do {
+      nextchar = fgetc (this->file);
+   } while (isspace (nextchar));
+   if (nextchar == EOF) {
+      result = EOF;
+   }else if (nextchar == '_' || isdigit (nextchar)) {
+      do {
+         this->buffer[this->size++] = nextchar;
+         ensure_capacity (this, this->size + 1);
+         nextchar = fgetc (this->file);
+      } while (isdigit (nextchar));
+      this->buffer[this->size] = '\0';
+      int ungetchar = ungetc (nextchar, this->file);
+      assert (ungetchar == nextchar);
+      result = NUMBER;
+   }else {
+      result = nextchar;
+   }
+   return result;
+}
+
+void show_token (token *this) {
+   fprintf (stderr, "token@@%p->{%lu,%lu,%d,%p->\"%s\"}\n",
+            this, this->capacity, this->size, this->token,
+            this->buffer, this->buffer);
+}
+
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 2
+a2 1
+// $Id: token.c,v 1.9 2014-02-28 19:40:13-08 - - $
+a32 1
+   DEBUGS ('t', show_token (this));
+a41 1
+   DEBUGS ('t', show_token (this));
+a78 1
+   DEBUGS ('t', show_token (this));
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: token.c,v 1.8 2013-05-16 15:14:31-07 - - $
+d42 1
+a42 1
+   //DEBUGS ('t', show_token (this));
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: token.c,v 1.7 2013-05-08 22:09:41-07 - - $
+d42 1
+a42 1
+   DEBUGS ('t', show_token (this));
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: token.c,v 1.6 2013-05-07 21:14:09-07 - - $
+d49 3
+a51 1
+      this->capacity *= 2;
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: token.c,v 1.5 2013-05-03 19:33:54-07 - - $
+a21 6
+void show_token (token *this) {
+   fprintf (stderr, "token@@%p->{%lu,%lu,%d,%p->\"%s\"}\n",
+           this, this->capacity, this->size, this->token,
+           this->buffer, this->buffer);
+}
+
+d82 6
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: token.c,v 1.4 2013-05-02 14:15:47-07 - - $
+d10 1
+a10 1
+#include "debugf.h"
+a15 1
+   int token;
+d18 1
+d22 6
+d29 21
+a49 22
+   token *tmp = malloc (sizeof (token));
+   assert (tmp != NULL);
+   tmp->file = file;
+   tmp->token = 0;
+   tmp->capacity = INIT_CAPACITY;
+   tmp->buffer = malloc (tmp->capacity);
+   assert (tmp->buffer != NULL);
+   tmp->buffer[0] = '\0';
+   tmp->size = 0;
+   DEBUGF ('t', "token->%p\n", tmp);
+   return tmp;
+}
+
+void free_token (token *token) {
+   free (token->buffer);
+   free (token);
+}
+
+char *peek_token (token *token) {
+   DEBUGF ('t', "peek %p [%d] \"%s\"\n", token, token->size,
+           token->buffer);
+   return token->buffer;
+d53 11
+a63 3
+int scan_token (token *token) {
+   token->size = 0;
+   token->buffer[token->size] = '\0';
+d67 1
+a67 1
+      nextchar = fgetc (token->file);
+d73 3
+a75 7
+         token->buffer[token->size++] = nextchar;
+         if (token->size == token->capacity) {
+            token->capacity *= 2;
+            token->buffer = realloc (token->buffer, token->capacity);
+            assert (token->buffer);
+         }
+         nextchar = fgetc (token->file);
+d77 2
+a78 2
+      token->buffer[token->size] = '\0';
+      int ungetchar = ungetc (nextchar, token->file);
+d84 1
+a84 2
+   DEBUGF ('t', "scan %p [%d] \"%s\" %d\n", token, token->size,
+           token->buffer, result);
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: token.c,v 1.3 2013-02-25 16:58:16-08 - - $
+d12 1
+a12 1
+#define BUFFER_SIZE 16
+d17 1
+a18 1
+   size_t chars;
+d27 2
+a28 2
+   tmp->size = BUFFER_SIZE;
+   tmp->buffer = malloc (tmp->size);
+d31 1
+a31 1
+   tmp->chars = 0;
+d42 1
+a42 1
+   DEBUGF ('t', "peek %p [%d] \"%s\"\n", token, token->chars,
+d49 2
+a50 2
+   token->chars = 0;
+   token->buffer[token->chars] = '\0';
+d60 4
+a63 4
+         token->buffer[token->chars++] = nextchar;
+         if (token->chars == token->size) {
+            token->size *= 2;
+            token->buffer = realloc (token->buffer, token->size);
+d68 1
+a68 1
+      token->buffer[token->chars] = '\0';
+d75 1
+a75 1
+   DEBUGF ('t', "scan %p [%d] \"%s\" %d\n", token, token->chars,
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: token.c,v 1.2 2013-02-19 14:47:14-08 - - $
+d12 1
+a12 3
+#define BUFFER_LENGTH 16
+
+static char *token_tag = "struct token";
+a14 1
+   char *tag;
+d17 1
+a17 1
+   size_t length;
+d23 1
+a23 1
+   token *tmp = malloc (sizeof (struct token));
+a24 1
+   tmp->tag = token_tag;
+d27 2
+a28 2
+   tmp->length = BUFFER_LENGTH;
+   tmp->buffer = malloc (tmp->length);
+a36 1
+   assert (is_token (token));
+a37 1
+   memset (token, 0, sizeof (struct token));
+d61 3
+a63 3
+         if (token->chars == token->length) {
+            token->length *= 2;
+            token->buffer = realloc (token->buffer, token->length);
+a79 4
+bool is_token (token *token) {
+   // LINTED (assignment of 32-bit integer to 8-bit integer)
+   return token != NULL && token->tag == token_tag;
+}
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id$
+a65 1
+         // LINTED (assignment of 32-bit integer to 8-bit integer)
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $id$
+@

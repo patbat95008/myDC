@@ -1,0 +1,30 @@
+Patrick Russell
+Username: pcrussel
+
+PROGRAM NAME:
+
+   mydc
+
+USAGE:
+
+   mydc [filename...]
+
+   Valid commands used in program:
+
+      Numbers(1-999999999...)
+
+      p - Peek at the element at the top of the stack
+
+      f - Print all the elements in the stack
+
+      c - Clear all elements
+
+      +, -, * - Add, subtract, and multiply, respectivly
+
+
+SYNOPSIS:
+
+   Takes in numbers, adds them onto a stack, and performs operations
+   on them. It can multiply, add, and subtract.
+
+

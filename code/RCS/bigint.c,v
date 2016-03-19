@@ -1,0 +1,3287 @@
+head	1.129;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.129
+date	2014.03.03.19.05.25;	author -;	state -;
+branches;
+next	1.128;
+
+1.128
+date	2014.03.03.19.04.14;	author -;	state -;
+branches;
+next	1.127;
+
+1.127
+date	2014.03.03.19.03.43;	author -;	state -;
+branches;
+next	1.126;
+
+1.126
+date	2014.03.03.19.02.59;	author -;	state -;
+branches;
+next	1.125;
+
+1.125
+date	2014.03.03.19.02.10;	author -;	state -;
+branches;
+next	1.124;
+
+1.124
+date	2014.03.03.19.01.16;	author -;	state -;
+branches;
+next	1.123;
+
+1.123
+date	2014.03.03.19.00.49;	author -;	state -;
+branches;
+next	1.122;
+
+1.122
+date	2014.03.03.18.58.08;	author -;	state -;
+branches;
+next	1.121;
+
+1.121
+date	2014.03.03.18.56.05;	author -;	state -;
+branches;
+next	1.120;
+
+1.120
+date	2014.03.03.18.54.51;	author -;	state -;
+branches;
+next	1.119;
+
+1.119
+date	2014.03.03.18.53.52;	author -;	state -;
+branches;
+next	1.118;
+
+1.118
+date	2014.03.03.18.52.52;	author -;	state -;
+branches;
+next	1.117;
+
+1.117
+date	2014.03.03.18.50.50;	author -;	state -;
+branches;
+next	1.116;
+
+1.116
+date	2014.03.03.18.49.07;	author -;	state -;
+branches;
+next	1.115;
+
+1.115
+date	2014.03.03.18.47.26;	author -;	state -;
+branches;
+next	1.114;
+
+1.114
+date	2014.03.03.18.46.01;	author -;	state -;
+branches;
+next	1.113;
+
+1.113
+date	2014.03.03.18.45.14;	author -;	state -;
+branches;
+next	1.112;
+
+1.112
+date	2014.03.03.18.38.57;	author -;	state -;
+branches;
+next	1.111;
+
+1.111
+date	2014.03.03.17.36.37;	author -;	state -;
+branches;
+next	1.110;
+
+1.110
+date	2014.03.03.17.33.39;	author -;	state -;
+branches;
+next	1.109;
+
+1.109
+date	2014.03.03.07.03.57;	author -;	state -;
+branches;
+next	1.108;
+
+1.108
+date	2014.03.03.07.02.26;	author -;	state -;
+branches;
+next	1.107;
+
+1.107
+date	2014.03.03.07.01.47;	author -;	state -;
+branches;
+next	1.106;
+
+1.106
+date	2014.03.03.07.01.04;	author -;	state -;
+branches;
+next	1.105;
+
+1.105
+date	2014.03.03.06.59.54;	author -;	state -;
+branches;
+next	1.104;
+
+1.104
+date	2014.03.03.06.59.30;	author -;	state -;
+branches;
+next	1.103;
+
+1.103
+date	2014.03.03.06.55.48;	author -;	state -;
+branches;
+next	1.102;
+
+1.102
+date	2014.03.03.06.54.56;	author -;	state -;
+branches;
+next	1.101;
+
+1.101
+date	2014.03.03.06.54.03;	author -;	state -;
+branches;
+next	1.100;
+
+1.100
+date	2014.03.03.06.47.38;	author -;	state -;
+branches;
+next	1.99;
+
+1.99
+date	2014.03.03.06.45.22;	author -;	state -;
+branches;
+next	1.98;
+
+1.98
+date	2014.03.03.06.43.14;	author -;	state -;
+branches;
+next	1.97;
+
+1.97
+date	2014.03.03.06.39.33;	author -;	state -;
+branches;
+next	1.96;
+
+1.96
+date	2014.03.03.06.38.29;	author -;	state -;
+branches;
+next	1.95;
+
+1.95
+date	2014.03.03.06.37.04;	author -;	state -;
+branches;
+next	1.94;
+
+1.94
+date	2014.03.03.06.36.32;	author -;	state -;
+branches;
+next	1.93;
+
+1.93
+date	2014.03.03.06.27.08;	author -;	state -;
+branches;
+next	1.92;
+
+1.92
+date	2014.03.03.06.26.36;	author -;	state -;
+branches;
+next	1.91;
+
+1.91
+date	2014.03.03.06.24.07;	author -;	state -;
+branches;
+next	1.90;
+
+1.90
+date	2014.03.03.06.21.49;	author -;	state -;
+branches;
+next	1.89;
+
+1.89
+date	2014.03.03.06.20.18;	author -;	state -;
+branches;
+next	1.88;
+
+1.88
+date	2014.03.03.06.14.40;	author -;	state -;
+branches;
+next	1.87;
+
+1.87
+date	2014.03.03.06.13.25;	author -;	state -;
+branches;
+next	1.86;
+
+1.86
+date	2014.03.03.06.12.22;	author -;	state -;
+branches;
+next	1.85;
+
+1.85
+date	2014.03.03.06.11.32;	author -;	state -;
+branches;
+next	1.84;
+
+1.84
+date	2014.03.03.06.11.03;	author -;	state -;
+branches;
+next	1.83;
+
+1.83
+date	2014.03.03.05.19.37;	author -;	state -;
+branches;
+next	1.82;
+
+1.82
+date	2014.03.03.05.18.44;	author -;	state -;
+branches;
+next	1.81;
+
+1.81
+date	2014.03.03.05.18.18;	author -;	state -;
+branches;
+next	1.80;
+
+1.80
+date	2014.03.03.05.17.29;	author -;	state -;
+branches;
+next	1.79;
+
+1.79
+date	2014.03.02.23.56.11;	author -;	state -;
+branches;
+next	1.78;
+
+1.78
+date	2014.03.02.23.53.42;	author -;	state -;
+branches;
+next	1.77;
+
+1.77
+date	2014.03.02.23.48.44;	author -;	state -;
+branches;
+next	1.76;
+
+1.76
+date	2014.03.02.21.55.28;	author -;	state -;
+branches;
+next	1.75;
+
+1.75
+date	2014.03.02.21.53.05;	author -;	state -;
+branches;
+next	1.74;
+
+1.74
+date	2014.03.02.21.52.07;	author -;	state -;
+branches;
+next	1.73;
+
+1.73
+date	2014.03.02.21.49.52;	author -;	state -;
+branches;
+next	1.72;
+
+1.72
+date	2014.03.02.21.46.30;	author -;	state -;
+branches;
+next	1.71;
+
+1.71
+date	2014.03.02.21.45.14;	author -;	state -;
+branches;
+next	1.70;
+
+1.70
+date	2014.03.02.21.44.32;	author -;	state -;
+branches;
+next	1.69;
+
+1.69
+date	2014.03.02.05.45.51;	author -;	state -;
+branches;
+next	1.68;
+
+1.68
+date	2014.03.02.05.45.26;	author -;	state -;
+branches;
+next	1.67;
+
+1.67
+date	2014.03.02.05.43.51;	author -;	state -;
+branches;
+next	1.66;
+
+1.66
+date	2014.03.02.02.38.06;	author -;	state -;
+branches;
+next	1.65;
+
+1.65
+date	2014.03.02.02.02.12;	author -;	state -;
+branches;
+next	1.64;
+
+1.64
+date	2014.03.02.02.01.07;	author -;	state -;
+branches;
+next	1.63;
+
+1.63
+date	2014.03.02.02.00.45;	author -;	state -;
+branches;
+next	1.62;
+
+1.62
+date	2014.03.02.02.00.15;	author -;	state -;
+branches;
+next	1.61;
+
+1.61
+date	2014.03.02.01.57.02;	author -;	state -;
+branches;
+next	1.60;
+
+1.60
+date	2014.03.02.01.55.01;	author -;	state -;
+branches;
+next	1.59;
+
+1.59
+date	2014.03.02.01.47.18;	author -;	state -;
+branches;
+next	1.58;
+
+1.58
+date	2014.03.02.01.44.30;	author -;	state -;
+branches;
+next	1.57;
+
+1.57
+date	2014.03.02.01.43.12;	author -;	state -;
+branches;
+next	1.56;
+
+1.56
+date	2014.03.02.01.39.56;	author -;	state -;
+branches;
+next	1.55;
+
+1.55
+date	2014.03.02.01.35.49;	author -;	state -;
+branches;
+next	1.54;
+
+1.54
+date	2014.03.02.01.16.17;	author -;	state -;
+branches;
+next	1.53;
+
+1.53
+date	2014.03.02.01.14.58;	author -;	state -;
+branches;
+next	1.52;
+
+1.52
+date	2014.03.02.01.06.54;	author -;	state -;
+branches;
+next	1.51;
+
+1.51
+date	2014.03.02.00.45.32;	author -;	state -;
+branches;
+next	1.50;
+
+1.50
+date	2014.03.02.00.44.09;	author -;	state -;
+branches;
+next	1.49;
+
+1.49
+date	2014.03.02.00.42.28;	author -;	state -;
+branches;
+next	1.48;
+
+1.48
+date	2014.03.01.23.22.59;	author -;	state -;
+branches;
+next	1.47;
+
+1.47
+date	2014.03.01.23.17.43;	author -;	state -;
+branches;
+next	1.46;
+
+1.46
+date	2014.03.01.22.51.43;	author -;	state -;
+branches;
+next	1.45;
+
+1.45
+date	2014.03.01.22.51.13;	author -;	state -;
+branches;
+next	1.44;
+
+1.44
+date	2014.03.01.22.47.00;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2014.03.01.22.46.07;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2014.03.01.22.44.54;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2014.03.01.22.43.59;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2014.03.01.22.43.45;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2014.03.01.22.42.45;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2014.03.01.22.41.25;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2014.03.01.22.40.53;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2014.03.01.22.40.04;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2014.03.01.22.37.38;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2014.03.01.22.35.30;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2014.03.01.22.34.52;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2014.03.01.22.34.11;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2014.03.01.22.29.42;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2014.03.01.22.09.49;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2014.03.01.22.08.16;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2014.03.01.22.06.36;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2014.03.01.20.28.12;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2014.03.01.20.27.42;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2014.03.01.20.26.56;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2014.03.01.20.23.58;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2014.03.01.20.23.33;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2014.03.01.20.21.48;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2014.03.01.20.20.24;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2014.03.01.20.16.46;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2014.03.01.20.16.20;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2014.03.01.20.06.07;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2014.03.01.02.57.27;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2014.03.01.02.57.08;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2014.02.28.22.21.06;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2014.02.28.22.19.58;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2014.01.25.02.33.47;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2013.05.16.22.14.31;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2013.05.10.01.59.04;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2013.05.09.05.09.41;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2013.05.09.01.53.30;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.05.08.04.14.09;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.05.04.02.39.51;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.05.04.02.33.54;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.05.02.21.15.47;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.19.22.46.04;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.19.20.36.45;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.19.20.31.09;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.16.03.41.09;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.129
+log
+@-
+@
+text
+@// Patrick Russell pcrussel
+// $Id: bigint.c,v 1.128 2014-03-03 11:04:14-08 - - $
+
+#include <assert.h>
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "bigint.h"
+#include "debug.h"
+
+#define MIN_CAPACITY 16
+
+struct bigint {
+   size_t capacity;
+   size_t size;
+   bool negative;
+   char *digits;
+};
+
+
+static void trim_zeros (bigint *this) {
+   while (this->size > 0) {
+      size_t digitpos = this->size - 1;
+      if (this->digits[digitpos] != 0) break;
+      --this->size;
+   }
+}
+
+bigint *new_bigint (size_t capacity) {
+   bigint *this = malloc (sizeof (bigint));
+   assert (this != NULL);
+   this->capacity = capacity;
+   this->size = 0;
+   this->negative = false;
+   this->digits = calloc (this->capacity, sizeof (char));
+   assert (this->digits != NULL);
+   return this;
+}
+
+
+bigint *new_string_bigint (char *string) {
+   assert (string != NULL);
+   size_t length = strlen (string);
+   bigint *this = new_bigint (length > MIN_CAPACITY
+                            ? length : MIN_CAPACITY);
+   char *strdigit = &string[length - 1];
+   if (*string == '_') {
+      this->negative = true;
+      ++string;
+   }
+   char *thisdigit = this->digits;
+   while (strdigit >= string) {
+      assert (isdigit (*strdigit));
+      *thisdigit++ = *strdigit-- - '0';
+   }
+   this->size = thisdigit - this->digits;
+   trim_zeros (this);
+   return this;
+}
+
+
+//adds the 2 items given, called by add_bigint
+static bigint *do_add (bigint *this, bigint *that) {
+   bigint *result = NULL;
+   size_t count = 0;
+   int carry = 0;
+
+   if(this->size > that->size){
+      result = new_bigint(this->size + 1);
+   }else if(this->size < that->size){
+      result = new_bigint(that->size + 1);
+   }else{
+      result = new_bigint(this->size + 1);
+   }
+
+   for (; count < result->capacity - 1; count++){
+      int this_digits;
+      int that_digits;
+
+      if(this->size < count) this_digits = 0;
+      else this_digits = (int)this->digits[count];
+      
+      if(that->size < count) that_digits = 0;
+      else that_digits = (int)that->digits[count];
+      int digit = this_digits + that_digits + carry;
+      
+      result->digits[count] = (char)digit%10;
+      carry = digit / 10;
+      result->size++;
+   }
+   if(this->negative || that->negative) result->negative = true;
+   return result;
+}
+
+//subtracts the 2 given, called by sub_bigint
+static bigint *do_sub (bigint *this, bigint *that) {
+   bigint *result = new_bigint(this->size);
+   size_t count = 0;
+   int borrow = 0;
+
+   for(; count < result->capacity - 1; count++){
+      int this_digits;
+      int that_digits;
+      if(this->size <= count) this_digits = 0;
+      else this_digits = (int)this->digits[count];
+      
+      if(that->size <= count) that_digits = 0;
+      else that_digits = (int)that->digits[count];
+
+      int digit = this_digits - that_digits - borrow + 10;
+      result->digits[count] = (char)digit%10;
+      borrow = 1 - digit / 10;
+      result->size++;
+   }
+   //trim_zeros(result);
+   return result;
+}
+
+void free_bigint (bigint *this) {
+   free (this->digits);
+   free (this);
+}
+
+//prints the bigint
+void print_bigint (bigint *this, FILE *file) { 
+   if(this->negative) fprintf(file, "-");   
+   int index = (int)this->size - 1;
+   for(; index > 0; index--){
+      fprintf(file, "%i", this->digits[index]);
+   }
+   fprintf(file, "%i\n", this->digits[0]);
+}
+
+//adds the 2 items given, returns the result
+bigint *add_bigint (bigint *this, bigint *that) {
+   bigint *return_item = NULL; 
+   if (this->negative && !that->negative){
+      return_item = do_sub(that, this);
+   }else if(!this->negative && that->negative){
+      return_item = do_sub(this, that);
+   }else{
+      return_item = do_add(this, that);
+   }
+   assert(return_item != NULL);
+   return return_item;
+}
+
+//subtracts the 2 items given, returns result
+bigint *sub_bigint (bigint *this, bigint *that) {
+   bigint *return_item = NULL;
+   if(this->negative && !that->negative){
+      return_item = do_add(this, that);
+   }else if(!this->negative && that->negative){
+      return_item = do_add(this, that);
+   }else{
+      return_item = do_sub(this, that);
+   }
+   assert(return_item != NULL);
+   return return_item;
+}
+
+
+//multiplies the 2 items given, returns result
+bigint *mul_bigint (bigint *this, bigint *that) {
+   int carry = 0, decimal = 0;
+   size_t index = 0, j_index = 0, bigger = 0, smaller = 0;
+   size_t super_size = this->size + that->size;
+   int *product = calloc(super_size, sizeof(int));
+   bigint *result = new_bigint(super_size);
+
+   if(this->negative && !that->negative) result->negative = true;
+   else if(that->negative && !this->negative) result->negative = true;
+   else result->negative = false;
+
+   if(this->size > that->size){
+      bigger = this->size;
+      smaller = that->size;
+   }else if (that->size >= this->size){
+      bigger = that->size;
+      smaller = this->size;
+   }
+
+   for (; index < smaller; index++){
+      carry = 0;
+      for (; j_index < bigger; j_index++){
+         decimal = product[index + j_index] + this->digits[index]
+                   * that->digits[j_index] + carry;
+         printf("decimal: %i\n", decimal);
+         product[index + j_index] = decimal%10;
+         carry = decimal/10;
+      }
+      product[index + smaller] = carry;
+   }
+
+   for (index = 0; index < super_size; index++){
+      printf("product: %i\n", product[index]);
+      result->digits[index] = product[index];
+      result->size++;
+   }
+   trim_zeros(result);
+
+   return result;
+   
+}
+
+void show_bigint (bigint *this) {
+   fprintf (stderr, "bigint@@%p->{%lu,%lu,%c,%p->", this,
+            this->capacity, this->size, this->negative ? '-' : '+',
+            this->digits);
+   for (char *byte = &this->digits[this->size - 1];
+        byte >= this->digits; --byte) {
+      fprintf (stderr, "%d", *byte);
+   }
+   fprintf (stderr, "}\n");
+}
+
+@
+
+
+1.128
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.127 2014-03-03 11:03:43-08 - - $
+d180 1
+a180 1
+   }else{
+@
+
+
+1.127
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.126 2014-03-03 11:02:59-08 - - $
+d194 1
+a194 1
+      product[index + bigger] = carry;
+@
+
+
+1.126
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.125 2014-03-03 11:02:10-08 - - $
+d194 1
+a194 1
+      product[index + smaller] = carry;
+@
+
+
+1.125
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.124 2014-03-03 11:01:16-08 - - $
+d185 1
+a185 1
+   for (; index < bigger; index++){
+d187 1
+a187 1
+      for (; j_index < smaller; j_index++){
+d194 1
+a194 1
+      product[index + that->size] = carry;
+@
+
+
+1.124
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.123 2014-03-03 11:00:49-08 - - $
+d181 1
+a181 1
+      bigger = that ->size;
+d185 1
+a185 1
+   for (; index < smaller; index++){
+d187 1
+a187 1
+      for (; j_index < bigger; j_index++){
+@
+
+
+1.123
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.122 2014-03-03 10:58:08-08 - - $
+d177 1
+a177 1
+   if(this->size > that->size)i{
+@
+
+
+1.122
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.121 2014-03-03 10:56:05-08 - - $
+d168 1
+a168 1
+   size_t index = 0, j_index = 0;
+d172 1
+d177 9
+a185 1
+   for (; index < this->size; index++){
+d187 1
+a187 1
+      for (; j_index < that->size; j_index++){
+d202 1
+@
+
+
+1.121
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.120 2014-03-03 10:54:51-08 - - $
+d191 1
+@
+
+
+1.120
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.119 2014-03-03 10:53:52-08 - - $
+d190 1
+a190 1
+      result->digits[index] = '0' + (char)product[index];
+@
+
+
+1.119
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.118 2014-03-03 10:52:52-08 - - $
+d190 1
+a190 1
+      result->digits[index] = product[index];
+@
+
+
+1.118
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.117 2014-03-03 10:50:50-08 - - $
+d190 1
+a190 1
+      result->digits[index] = (char)product[index];
+@
+
+
+1.117
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.116 2014-03-03 10:49:07-08 - - $
+d188 1
+a188 1
+   for (index = 0; index < this->size + that->size; index++){
+@
+
+
+1.116
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.115 2014-03-03 10:47:26-08 - - $
+d181 1
+@
+
+
+1.115
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.114 2014-03-03 10:46:01-08 - - $
+d188 1
+@
+
+
+1.114
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.113 2014-03-03 10:45:14-08 - - $
+d170 1
+a170 1
+   int *product = calloc(super_size, (int));
+d184 1
+a184 1
+      product[index + size->that] = carry;
+@
+
+
+1.113
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.112 2014-03-03 10:38:57-08 - - $
+d171 1
+a171 1
+   bigint result = new_bigint(super_size);
+@
+
+
+1.112
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.111 2014-03-03 09:36:37-08 - - $
+d167 8
+a174 3
+   bigint result = new_bigint(this->size + that->size);
+   int carry = 0, index = 0, j_index = 0, decimal = 0;
+   int *product = calloc(this->size + that->size, (int));
+d179 2
+a180 2
+         decimal = product[index + j_index] + this->decimals[index]
+                   * that->decimals[j_index] + carry;
+d188 1
+a188 1
+      result->decimals[index] = (char)product[index];
+@
+
+
+1.111
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.110 2014-03-03 09:33:39-08 - - $
+a21 14
+//converts the bigint into an int
+int get_digits(bigint *this){
+   size_t i = 0;
+   int sum = 0;
+   for(; i <= this->size; i++){
+      size_t j = 0;
+      int tenexp = 1;
+      for(; j < i; j++){
+         tenexp *= 10;
+      }
+      sum += tenexp * this->digits[i];
+   }
+   return sum;
+}
+d167 21
+a187 3
+   (void)this;
+   (void)that;
+   return NULL;
+@
+
+
+1.110
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.109 2014-03-02 23:03:57-08 - - $
+d107 1
+a107 1
+   if(this->negative) result->negative = true;
+d131 1
+a131 1
+   trim_zeros(result);
+@
+
+
+1.109
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.108 2014-03-02 23:02:26-08 - - $
+d142 1
+a142 2
+   //if(this->negative) fprintf(file, "-");
+   //fprintf(file, "%i\n", get_digits(this));
+d145 1
+a145 1
+      printf("%i", this->digits[index]);
+d147 1
+a147 1
+   printf("%i\n", this->digits[0]);
+d160 1
+d166 9
+a174 1
+   bigint *return_item = do_sub(this, that);
+@
+
+
+1.108
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.107 2014-03-02 23:01:47-08 - - $
+d148 1
+a148 1
+   printf("\n");
+@
+
+
+1.107
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.106 2014-03-02 23:01:04-08 - - $
+d144 2
+a145 2
+   size_t index = this->size - 1;
+   for(; index < 0; index--){
+@
+
+
+1.106
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.105 2014-03-02 22:59:54-08 - - $
+d144 2
+a145 2
+   int index = (int)this->size - 1;
+   for(; index <= 0; index--){
+@
+
+
+1.105
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.104 2014-03-02 22:59:30-08 - - $
+d144 2
+a145 2
+   size_t index = 0;
+   for(; index < this->size; index++){
+@
+
+
+1.104
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.103 2014-03-02 22:55:48-08 - - $
+d146 1
+a146 1
+      printf("%s", this->digits[index]);
+@
+
+
+1.103
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.102 2014-03-02 22:54:56-08 - - $
+d142 7
+a148 2
+   if(this->negative) fprintf(file, "-");
+   fprintf(file, "%i\n", get_digits(this));
+@
+
+
+1.102
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.101 2014-03-02 22:54:03-08 - - $
+d131 1
+a131 1
+   trim_zeroes(result);
+d168 2
+@
+
+
+1.101
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.100 2014-03-02 22:47:38-08 - - $
+d168 1
+a168 7
+   int this_int = get_digits(this);
+   int that_int = get_digits(that);
+   if(this->negative) this_int *= -1;
+   if(that->negative) that_int *= -1;
+   int product = this_int * that_int;
+   bigint *return_bigint = int_to_bigint(product);
+   return return_bigint;
+@
+
+
+1.100
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.99 2014-03-02 22:45:22-08 - - $
+a76 28
+//converts an int's decimals into a bigint's array
+bigint *int_to_bigint (int input){
+   //determines number of decimals to make array
+   size_t count = 0;
+   int test_input = input;
+   bool negative = false;
+   if (input <0){
+      negative = true;
+      input *= -1;
+   }
+   
+   for(;; count++){
+      if(test_input <= 0) break;
+      test_input = test_input/10;
+   }
+   
+   int top = count;
+   char *new_digits = calloc(count, sizeof(char));
+   //adds the new digits into the newly created char array
+   for(; top >= 0; top--){
+      int single_dig = input%10;
+      input = input/10;
+      new_digits[top] = '0' + single_dig;
+   }
+   bigint *return_bigint = new_string_bigint(new_digits);
+   return_bigint->negative = negative;
+   return return_bigint;
+}
+d107 1
+d131 1
+d148 8
+a155 1
+   bigint *return_item = do_add(this, that);
+@
+
+
+1.99
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.98 2014-03-02 22:43:14-08 - - $
+a107 7
+   /*int this_int = get_digits(this);
+   int that_int = get_digits(that);
+   if(this->negative) this_int *= -1;
+   if(that->negative) that_int *= -1;
+   int sum = this_int + that_int;
+   bigint *return_bigint = int_to_bigint(sum);
+   return return_bigint;*/
+d123 1
+d126 1
+a126 1
+      //printf("first for loop if statement done\n");
+a128 2
+      //printf("second for loop if statement done\n");
+      printf("sum: %i\n", this_digits + that_digits + carry);
+d130 1
+a130 1
+      //printf("digit added successfully\n");
+a131 1
+      //printf("result->digits added successfully\n");
+a139 5
+   /*int this_int = get_digits(this);
+   int that_int = get_digits(that);
+   int difference = this_int - that_int;
+   bigint *return_bigint = int_to_bigint(difference);
+   return return_bigint;*/
+@
+
+
+1.98
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.97 2014-03-02 22:39:33-08 - - $
+a32 1
+   printf("get_digits sum:%i\n", sum);
+d142 1
+d170 1
+@
+
+
+1.97
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.96 2014-03-02 22:38:29-08 - - $
+d33 1
+@
+
+
+1.96
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.95 2014-03-02 22:37:04-08 - - $
+d136 1
+@
+
+
+1.95
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.94 2014-03-02 22:36:32-08 - - $
+d130 1
+a130 1
+      if(this->size <= count) this_digits = 0;
+d133 1
+a133 1
+      if(that->size <= count) that_digits = 0;
+@
+
+
+1.94
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.93 2014-03-02 22:27:08-08 - - $
+d167 1
+a167 1
+      bottow = 1 - digit / 10;
+@
+
+
+1.93
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.92 2014-03-02 22:26:36-08 - - $
+a118 1
+   printf("if statements started\n");
+d121 1
+a121 1
+   }else if( this->size < that->size){
+d126 1
+a126 2
+   printf("if statements finished, for loop started\n");
+   printf("result->size = %u\n", result->capacity);
+d130 1
+a130 1
+      if(this->size <= count) this_digits = '0';
+d133 1
+a133 1
+      if(that->size <= count) that_digits = '0';
+d147 1
+a147 1
+   int this_int = get_digits(this);
+d151 19
+a169 1
+   return return_bigint;
+@
+
+
+1.92
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.91 2014-03-02 22:24:07-08 - - $
+a143 3
+   for(count = 0; count < result->capacity - 1; count++){
+      printf("result->digits[%u]: %s\n", count, result->digits[count]);
+   }
+@
+
+
+1.91
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.90 2014-03-02 22:21:49-08 - - $
+d144 3
+a146 1
+   
+@
+
+
+1.90
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.89 2014-03-02 22:20:18-08 - - $
+d128 2
+a129 2
+   printf("result->size = %u\n", result->size);
+   for (; count < result->size - 1; count++){
+@
+
+
+1.89
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.88 2014-03-02 22:14:40-08 - - $
+d128 1
+a128 1
+
+d134 1
+a134 1
+      printf("first for loop if statement done\n");
+d137 1
+a137 1
+      printf("second for loop if statement done\n");
+d139 1
+a139 1
+      printf("digit added successfully\n");
+d141 1
+a141 1
+      printf("result->digits added successfully\n");
+@
+
+
+1.88
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.87 2014-03-02 22:13:25-08 - - $
+d119 1
+d127 1
+d134 1
+d137 1
+d139 1
+d141 1
+@
+
+
+1.87
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.86 2014-03-02 22:12:22-08 - - $
+d127 1
+a127 1
+   for (count; count < result->size - 1; count++){
+d131 1
+a131 1
+      else this_digits = this->digits[count];
+d133 1
+a133 1
+      else that_digits = that->digits[count];
+d135 1
+a135 1
+      result->digits[count] = digit%10;
+@
+
+
+1.86
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.85 2014-03-02 22:11:32-08 - - $
+d117 1
+a117 1
+   char carry = '0';
+d128 2
+a129 2
+      char this_digits;
+      char that_digits;
+d134 1
+a134 1
+      char digit = this_digits + that_digits + carry;
+@
+
+
+1.85
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.84 2014-03-02 22:11:03-08 - - $
+d134 1
+a134 1
+      char digit = this->digits[count] + that->digits[count] + carry;
+@
+
+
+1.84
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.83 2014-03-02 21:19:37-08 - - $
+d131 1
+a131 1
+      else this_digitis = this->digits[count];
+@
+
+
+1.83
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.82 2014-03-02 21:18:44-08 - - $
+a36 6
+int get_one_digit(bigint *this, size_t index){
+   if(this->size <= index) return NULL;
+   int this_int = (int)this->digits[index];
+   return this_int;
+}
+
+d115 8
+a122 23
+   int count = 0;
+   int this_int = 0, that_int = 0, sum = 0, add_ten = 0;
+   char *total = NULL;
+   if (this->size > that->size){
+      total = calloc(this->size + 1, sizeof(char));
+      for (; count <= (int)this->size; count++){
+         if(that_int == NULL) break;
+         this_int = get_one_digit(this, count);
+         that_int = get_one_digit(that, count);
+         sum = this_int + that_int;
+         if (sum >= 10){
+            add_ten = sum/10;
+            sum = sum%10;
+         }
+
+         if (sum + (int)total[count] >= 10){
+           total[count] = ((sum + (int)total[count]) % 10);
+           total[count + 1] += ((sum + (int)total[count]) / 10);
+         }else{
+            total[count] += (char)sum;
+            total[count + 1] = (char)add_ten;
+         }
+      }
+d124 13
+a136 19
+      total = calloc(that->size + 1, sizeof(char));
+      for (; count <= (int)this->size; count++){
+         if(this_int == NULL) break;
+         this_int = get_one_digit(this, count);
+         that_int = get_one_digit(that, count);
+         sum = this_int + that_int;
+         if (sum >= 10){
+           add_ten = sum/10;
+           sum = sum%10;
+         }
+
+         if (sum + (int)total[count] >= 10){
+           total[count] = ((sum + (int)total[count]) % 10);
+           total[count + 1] += ((sum + (int)total[count]) / 10);
+         }else{
+            total[count] += (char)sum;
+            total[count + 1] = (char)add_ten;
+         }
+      }
+d138 2
+a139 2
+   bigint *return_bigint = new_string_bigint(total);
+   return return_bigint;
+@
+
+
+1.82
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.81 2014-03-02 21:18:18-08 - - $
+d123 1
+d125 1
+a125 1
+      char *total = calloc(this->size + 1, sizeof(char));
+d145 1
+a145 1
+      char *total = calloc(that->size + 1, sizeof(char));
+@
+
+
+1.81
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.80 2014-03-02 21:17:29-08 - - $
+d144 1
+a144 1
+      char *total = calloc(that->size + 1, sizeof(char))
+@
+
+
+1.80
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.79 2014-03-02 15:56:11-08 - - $
+d136 2
+a137 2
+           total[count] = char((sum + (int)total[count]) % 10);
+           total[count + 1] += char((sum + (int)total[count]) / 10);
+d156 2
+a157 2
+           total[count] = char((sum + (int)total[count]) % 10);
+           total[count + 1] += char((sum + (int)total[count]) / 10);
+@
+
+
+1.79
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.78 2014-03-02 15:53:42-08 - - $
+d37 6
+a58 1
+   DEBUGS ('b', show_bigint (this));
+a79 1
+   DEBUGS ('b', show_bigint (this));
+d114 1
+a114 1
+   int this_int = get_digits(this);
+d120 45
+a185 1
+   //DEBUGS ('b', show_bigint (this));
+a189 3
+   //DEBUGS ('b', show_bigint (this));
+   //DEBUGS ('b', show_bigint (that));
+   //STUB (return NULL);
+a195 3
+   //DEBUGS ('b', show_bigint (this));
+   //DEBUGS ('b', show_bigint (that));
+   //STUB (return NULL);
+@
+
+
+1.78
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.77 2014-03-02 15:48:44-08 - - $
+d163 2
+@
+
+
+1.77
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.76 2014-03-02 13:55:28-08 - - $
+d135 1
+@
+
+
+1.76
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.75 2014-03-02 13:53:05-08 - - $
+d84 5
+d104 1
+d112 2
+@
+
+
+1.75
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.74 2014-03-02 13:52:07-08 - - $
+a151 4
+   DEBUGS ('b', show_bigint (this));
+   DEBUGS ('b', show_bigint (that));
+   //STUB (return NULL);
+   //return NULL;
+@
+
+
+1.74
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.73 2014-03-02 13:49:52-08 - - $
+d156 3
+a158 3
+   int this = get_digits(this);
+   int that = get_digits(that);
+   int product = this * that;
+@
+
+
+1.73
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.72 2014-03-02 13:46:30-08 - - $
+d154 7
+a160 2
+   STUB (return NULL);
+   return NULL;
+@
+
+
+1.72
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.71 2014-03-02 13:45:14-08 - - $
+d27 1
+a27 1
+      int j = 0;
+d79 1
+d81 1
+d92 1
+a92 1
+
+a106 21
+   //printf("sum = %i\n", sum);
+   /*size_t count = 0;
+   int test_sum = sum;
+
+   for (;;count++){
+      if(test_sum <= 0) break;
+      test_sum = test_sum/10;
+   }
+
+   //printf("count: %u\n", count);
+   int i = (int)count;
+   char *new_digits = calloc(count, sizeof(char));
+
+   for (; i >= 0; i--){
+      int single_dig = sum%10;
+      sum = sum/10;
+      new_digits[i] = '0' + single_dig;
+      //printf("single_dig = %i\n", single_dig); 
+   }
+   bigint *return_bigint = new_string_bigint(new_digits);
+   return return_bigint;*/
+a112 3
+   //DEBUGS ('b', show_bigint (this));
+   //DEBUGS ('b', show_bigint (that));
+   //STUB (return NULL);
+a115 19
+   /*printf("difference = %i\n", difference);
+   size_t count = 0;
+   int test_dif = difference;
+   
+   for (;;count++){
+      if(test_dif <= 0) break;
+      test_dif = test_dif/10;
+   }
+   
+   printf("count: %u\n", count);
+   int i = (int)count;
+   char *new_digits = calloc(count, sizeof(char));
+   
+   for(; i >= 0; i--){
+      int single_dig = difference%10;
+      difference = difference/10;
+      new_digits[i] = '0' + single_dig;
+      printf("single_dig = %i\n", single_dig);
+   }*/
+@
+
+
+1.71
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.70 2014-03-02 13:44:32-08 - - $
+d138 1
+a138 1
+   printf("difference = %i\n", difference);
+d156 2
+a157 2
+   }
+   bigint *return_bigint = new_string_bigint(new_digits);
+@
+
+
+1.70
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.69 2014-03-01 21:45:51-08 - - $
+d91 1
+a91 1
+   for(; i>= 0; i--){
+@
+
+
+1.69
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.68 2014-03-01 21:45:26-08 - - $
+d79 21
+d106 1
+a106 1
+   size_t count = 0;
+d125 2
+@
+
+
+1.68
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.67 2014-03-01 21:43:51-08 - - $
+d128 1
+a128 1
+   for(; j >= 0; i--){
+@
+
+
+1.67
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.66 2014-03-01 18:38:06-08 - - $
+d163 1
+a163 1
+   bigint *return_item = do_subtract(this, that);
+@
+
+
+1.66
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.65 2014-03-01 18:02:12-08 - - $
+d84 1
+a84 1
+   printf("sum = %i\n", sum);
+d87 1
+d92 2
+a93 1
+   printf("count: %u\n", count);
+d101 1
+a101 2
+      printf("single_dig = %i\n", single_dig);
+      
+d109 27
+a135 3
+   DEBUGS ('b', show_bigint (this));
+   DEBUGS ('b', show_bigint (that));
+   STUB (return NULL);
+d137 1
+a153 1
+   printf("add_bigint started\n");
+d160 5
+a164 4
+   DEBUGS ('b', show_bigint (this));
+   DEBUGS ('b', show_bigint (that));
+   STUB (return NULL);
+   return NULL;
+@
+
+
+1.65
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.64 2014-03-01 18:01:07-08 - - $
+a80 1
+   int i = 0;
+d92 1
+d95 1
+a95 1
+   for (; i < count; i++){
+d100 1
+a100 1
+      //printf("new_digits[] = %s\n", new_digits[i]);
+@
+
+
+1.64
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.63 2014-03-01 18:00:45-08 - - $
+d97 1
+a97 1
+      sum = sum%10;
+@
+
+
+1.63
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.62 2014-03-01 18:00:15-08 - - $
+d102 1
+a102 1
+   bigint return_bigint = new_string_bigint(new_digits);
+@
+
+
+1.62
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.61 2014-03-01 17:57:02-08 - - $
+d102 1
+a102 1
+   bigint return_bigint = new_string_bigint(char new_digits);
+@
+
+
+1.61
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.60 2014-03-01 17:55:01-08 - - $
+d102 2
+a103 3
+
+   that->digits = new_digits;
+   return that;
+@
+
+
+1.60
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.59 2014-03-01 17:47:18-08 - - $
+d100 1
+a100 1
+      printf("new_digits[] = %s\n", new_digits[i]);
+@
+
+
+1.59
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.58 2014-03-01 17:44:30-08 - - $
+d96 5
+a100 3
+      printf("sum%10^i = %i\n", sum%10^i);
+      new_digits[i] = '0' + sum%10^i;
+      sum = sum%10^i;
+@
+
+
+1.58
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.57 2014-03-01 17:43:12-08 - - $
+d95 4
+a98 4
+   for (; i < count;){
+      printf("sum/10^i = %i\n", sum/10^i);
+      new_digits[i] = '0' + sum/10^i;
+      i++;
+@
+
+
+1.57
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.56 2014-03-01 17:39:56-08 - - $
+d95 1
+a95 1
+   for (; i < count; i++){
+d97 2
+a98 1
+      new_digits[i] = sum/10^i;
+@
+
+
+1.56
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.55 2014-03-01 17:35:49-08 - - $
+d96 2
+a97 2
+      printf("sum%10^i = %i\n", sum%10^i);
+      new_digits[i] = sum%10^i;
+@
+
+
+1.55
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.54 2014-03-01 17:16:17-08 - - $
+a80 3
+   //DEBUGS ('b', show_bigint (this));
+   //DEBUGS ('b', show_bigint (that));
+   printf("do_add started");
+d96 1
+@
+
+
+1.54
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.53 2014-03-01 17:14:58-08 - - $
+d22 1
+d84 1
+d89 15
+a103 3
+   char digit = '0' + sum;
+   printf("digit = %s\n", digit);
+   return this;
+@
+
+
+1.53
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.52 2014-03-01 17:06:54-08 - - $
+d87 1
+a87 1
+   char digit = (char)(((int)'0')+i);
+@
+
+
+1.52
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.51 2014-03-01 16:45:32-08 - - $
+d87 2
+a88 1
+   printf("(char) sum = %s\n", (char)sum);
+a89 1
+   //STUB (return NULL);
+@
+
+
+1.51
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.50 2014-03-01 16:44:09-08 - - $
+d87 1
+a87 1
+   //printf("(char) sum = %s\n", (char)sum);
+@
+
+
+1.50
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.49 2014-03-01 16:42:28-08 - - $
+d87 1
+a87 1
+   printf("(char) sum = %s\n", (char)sum);
+@
+
+
+1.49
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.48 2014-03-01 15:22:59-08 - - $
+d80 3
+a82 2
+   DEBUGS ('b', show_bigint (this));
+   DEBUGS ('b', show_bigint (that));
+d111 2
+a112 2
+   DEBUGS ('b', show_bigint (this));
+   DEBUGS ('b', show_bigint (that));
+d114 1
+@
+
+
+1.48
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.47 2014-03-01 15:17:43-08 - - $
+d82 7
+a88 1
+   STUB (return NULL);
+@
+
+
+1.47
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.46 2014-03-01 14:51:43-08 - - $
+d96 2
+a97 2
+void print_bigint (bigint *this, FILE *file) {
+   printf("print_bigint called\n");
+a98 1
+   //printf("Nevermind\n");
+@
+
+
+1.46
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.45 2014-03-01 14:51:13-08 - - $
+d98 1
+a98 1
+   fprintf(file, "%s\n", this->digits);
+@
+
+
+1.45
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.44 2014-03-01 14:47:00-08 - - $
+d28 1
+a28 1
+      for(; j <= i; j++){
+@
+
+
+1.44
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.43 2014-03-01 14:46:07-08 - - $
+d26 6
+a31 1
+      sum += 10^i * this->digits[i];
+@
+
+
+1.43
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.42 2014-03-01 14:44:54-08 - - $
+d26 1
+a26 1
+      sum +=  this->digits[i];
+@
+
+
+1.42
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.41 2014-03-01 14:43:59-08 - - $
+a24 1
+   printf("%u\n", this->size);
+d26 1
+a26 1
+      sum = (int) this->digits[i];
+@
+
+
+1.41
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.40 2014-03-01 14:43:45-08 - - $
+d27 1
+a27 1
+      sum = this->digits[i];
+@
+
+
+1.40
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.39 2014-03-01 14:42:45-08 - - $
+d25 1
+a25 1
+   printf("%u\n" this->size);
+@
+
+
+1.39
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.38 2014-03-01 14:41:25-08 - - $
+d25 1
+@
+
+
+1.38
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.37 2014-03-01 14:40:53-08 - - $
+d23 1
+a23 1
+   size_t i = this->size;
+d25 1
+a25 1
+   for(; i >= 0; i--){
+@
+
+
+1.37
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.36 2014-03-01 14:40:04-08 - - $
+d25 1
+a25 1
+   for(; i > 0; i--){
+@
+
+
+1.36
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.35 2014-03-01 14:37:38-08 - - $
+d23 1
+a23 1
+   size_t i = 0;
+d25 1
+a25 1
+   for(; i < this->size; i++){
+@
+
+
+1.35
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.34 2014-03-01 14:35:30-08 - - $
+d25 1
+a25 1
+   for(; i < sizeof(this->digits); i++){
+@
+
+
+1.34
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.33 2014-03-01 14:34:52-08 - - $
+d26 1
+a26 1
+      sum += 10^i * this->digits[i];
+@
+
+
+1.33
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.32 2014-03-01 14:34:11-08 - - $
+d23 1
+a23 1
+   int i = 0;
+d26 1
+a26 1
+      sum += int(10^i * this->digits[i]);
+@
+
+
+1.32
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.31 2014-03-01 14:29:42-08 - - $
+d27 1
+@
+
+
+1.31
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.30 2014-03-01 14:09:49-08 - - $
+d22 6
+a27 2
+char *get_digits(bigint *this){
+   return this->digits;
+@
+
+
+1.30
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.29 2014-03-01 14:08:16-08 - - $
+d22 4
+@
+
+
+1.29
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.28 2014-03-01 14:06:36-08 - - $
+d83 1
+a83 1
+   printf("there's yer problem\n");
+@
+
+
+1.28
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.27 2014-03-01 12:28:12-08 - - $
+d84 2
+a85 2
+   //fprintf(file, "%i\n", this->digits[0]);
+   printf("Nevermind\n");
+@
+
+
+1.27
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.26 2014-03-01 12:27:42-08 - - $
+d84 1
+a84 1
+   fprintf(file, "%i\n", this->digits[0]);
+d86 1
+a86 1
+   DEBUGS ('b', show_bigint (this));
+@
+
+
+1.26
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.25 2014-03-01 12:26:56-08 - - $
+d84 1
+a84 1
+   fprintf(file, "%d\n", this->digits[0]);
+@
+
+
+1.25
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.24 2014-03-01 12:23:58-08 - - $
+d84 1
+a84 1
+   fprintf(file, "%d\n", this->digits);
+@
+
+
+1.24
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.23 2014-03-01 12:23:33-08 - - $
+d84 1
+a84 1
+   fprintf(file, "%p\n", this->digits);
+@
+
+
+1.23
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.22 2014-03-01 12:21:48-08 - - $
+d84 1
+a84 1
+   fprintf(file, "%u\n", this->digits);
+@
+
+
+1.22
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.21 2014-03-01 12:20:24-08 - - $
+d84 1
+a84 1
+   fprintf(file, "%s\n", this->digits);
+@
+
+
+1.21
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.20 2014-03-01 12:16:46-08 - - $
+d84 1
+a84 1
+   printf("%s\n", this->digits[1]);
+@
+
+
+1.20
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.19 2014-03-01 12:16:20-08 - - $
+d84 1
+a84 2
+   //printf("%s\n", this->digits);
+   //printf("bigint: %d\n", this->digits);
+@
+
+
+1.19
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.18 2014-03-01 12:06:07-08 - - $
+d85 1
+a85 1
+   printf("bigint: %d\n", this->digits);
+@
+
+
+1.18
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.17 2014-02-28 18:57:27-08 - - $
+d84 2
+a85 1
+   printf("%s\n", this->digits);
+@
+
+
+1.17
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.16 2014-02-28 18:57:08-08 - - $
+d83 1
+d85 1
+@
+
+
+1.16
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.15 2014-02-28 14:21:06-08 - - $
+d83 1
+a83 1
+   out.printf("%s\n", this->digits);
+@
+
+
+1.15
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.14 2014-02-28 14:19:58-08 - - $
+d83 1
+d91 3
+a93 2
+   STUB (return NULL);
+   return NULL;
+@
+
+
+1.14
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: bigint.c,v 1.13 2014-01-24 18:33:47-08 - - $
+d66 3
+a68 6
+   bigint sum = malloc(sizeof(struct bigint));
+   sum->digits = this->digits + that->digits;
+   return sum;
+   //DEBUGS ('b', show_bigint (this));
+   //DEBUGS ('b', show_bigint (that));
+   //STUB (return NULL);
+@
+
+
+1.13
+log
+@-
+@
+text
+@d1 2
+a2 1
+// $Id: bigint.c,v 1.12 2013-05-16 15:14:31-07 - - $
+d64 1
+d66 6
+a71 3
+   DEBUGS ('b', show_bigint (this));
+   DEBUGS ('b', show_bigint (that));
+   STUB (return NULL);
+d74 1
+d89 1
+d97 1
+d106 1
+@
+
+
+1.12
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.11 2013-05-09 18:59:04-07 - - $
+d41 1
+d60 1
+a60 1
+   return this;;
+a62 1
+
+d97 1
+@
+
+
+1.11
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.10 2013-05-08 22:09:41-07 - - $
+d4 1
+d44 1
+a44 1
+   bigint *this = new_bigint (length < MIN_CAPACITY
+d53 1
+a53 1
+      assert ('0' <= *strdigit && *strdigit <= '9');
+@
+
+
+1.10
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.9 2013-05-08 18:53:30-07 - - $
+d53 1
+a53 1
+      *thisdigit++ = (*strdigit--) - '0';
+@
+
+
+1.9
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.8 2013-05-07 21:14:09-07 - - $
+d36 1
+d42 6
+a47 6
+   size_t capacity = strlen (string);
+   if (capacity < MIN_CAPACITY) capacity = MIN_CAPACITY;
+   bigint *this = new_bigint (capacity);
+   char *strdigit = string + capacity - 1;
+   if (string[strindex] == '_') {
+      negative = true;
+d50 4
+a53 3
+   for (char *thisdigit = this->digits; strdigit >= string; ++digit) {
+      assert (0 <= *strdigit && *strdigit <= 9);
+      *thisdigit++ = *strdigit--;
+d57 2
+a58 1
+   return NULL;
+d104 5
+a108 4
+   fprintf (stderr, "bigint@@%p->{%lu,%lu,%c", this,
+            this->capacity, this->size, this->negative ? '-' : '+');
+   for (char *byte = &this->digits[this->size] - 1;
+        byte >= this->digits; ++byte) {
+a113 1
+
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.7 2013-05-03 19:39:51-07 - - $
+d11 2
+d17 1
+a17 1
+   char *buffer;
+d23 1
+a23 1
+      if (this->buffer[digitpos] != 0) break;
+d34 2
+a35 2
+   this->buffer = calloc (capacity, sizeof (char));
+   assert (this->buffer != NULL);
+d42 4
+a45 3
+   assert (capacity > 0);
+   bool negative = false;
+   if (*string == '_') {
+a47 1
+      --capacity;
+d49 3
+a51 5
+   bigint *this = new_bigint (capacity);
+   for (size_t index = 0; index < capacity; ++index) {
+      char digit = string[capacity - 1 - index] - '0';
+      assert (0 <= digit && digit <= 9);
+      this->buffer[index] = digit;
+d53 1
+a53 1
+   this->size = capacity;
+d71 1
+a71 1
+   free (this->buffer);
+d103 2
+a104 2
+   for (char *byte = &this->buffer[this->size] - 1;
+        byte >= this->buffer; ++byte) {
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.6 2013-05-03 19:33:54-07 - - $
+d9 1
+d12 2
+a14 2
+   size_t capacity;
+   size_t digits;
+d18 5
+a22 5
+static void trim_zeros (bigint *bigint) {
+   while (bigint->digits > 0) {
+      size_t digitpos = bigint->digits - 1;
+      if (bigint->buffer[digitpos] != 0) break;
+      --bigint->digits;
+d27 8
+a34 8
+   bigint *bigint = malloc (sizeof (bigint));
+   assert (bigint != NULL);
+   bigint->negative = false;
+   bigint->capacity = capacity;
+   bigint->digits = 0;
+   bigint->buffer = calloc (capacity, sizeof (char));
+   assert (bigint->buffer != NULL);
+   return bigint;
+d47 1
+a47 1
+   bigint *bigint = new_bigint (capacity);
+d51 1
+a51 1
+      bigint->buffer[index] = digit;
+d53 2
+a54 2
+   bigint->digits = capacity;
+   trim_zeros (bigint);
+d59 4
+a62 1
+static bigint *do_add (bigint *left, bigint *right) {
+d65 4
+a68 1
+static bigint *do_sub (bigint *left, bigint *right) {
+d70 3
+a72 3
+void free_bigint (bigint *bigint) {
+   free (bigint->buffer);
+   free (bigint);
+d75 2
+a76 1
+void print_bigint (bigint *bigint, FILE *file) {
+d79 4
+a82 1
+bigint *add_bigint (bigint *left, bigint *right) {
+d86 4
+a89 1
+bigint *sub_bigint (bigint *left, bigint *right) {
+d93 4
+a96 1
+bigint *mul_bigint (bigint *left, bigint *right) {
+d100 11
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.5 2013-05-02 14:15:47-07 - - $
+d17 8
+d47 2
+a48 2
+   while (*string != '\0') {
+      char digit = string[xxxx] - '0';
+d50 1
+a50 1
+      bigint->buffer[index++] = digit;
+d52 1
+a57 8
+static void trim_zeros (bigint *bigint) {
+   while (bigint->digits > 0) {
+      size_t digitpos = bigint->digits - 1;
+      if (bigint->buffer[digitpos] != 0) break;
+      --bigint->digits;
+   }
+}
+
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.4 2013-02-19 14:46:04-08 - - $
+d12 1
+a12 1
+   size_t size;
+d17 1
+a17 16
+static void trim_zeros (bigint *bigint) {
+   while (bigint->digits > 0) {
+      size_t digitpos = bigint->digits - 1;
+      if (bigint->buffer[digitpos] != 0) break;
+      --bigint->digits;
+   }
+}
+
+static bigint *do_add (bigint *left, bigint *right) {
+}
+
+static bigint *do_sub (bigint *left, bigint *right) {
+}
+
+
+bigint *new_bigint (size_t size) {
+d21 1
+a21 1
+   bigint->size = size;
+d23 1
+a23 1
+   bigint->buffer = calloc (size, sizeof (char));
+d30 3
+a32 3
+   size_t size = strlen (string);
+   assert (size > 0);
+   bigint *bigint = new_bigint (size);
+d34 1
+a34 1
+      bigint->negative = true;
+d36 1
+a36 1
+      --size;
+d38 3
+a40 3
+   int index = 0;
+   while (size-- > 0) {
+      char digit = string[size] - '0';
+d49 13
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.3 2013-02-19 12:36:45-08 - - $
+a9 2
+static char *bigint_tag = "struct bigint";
+
+d11 2
+a12 3
+   char *tag;
+   bool is_negative;
+   size_t length;
+d32 2
+a33 2
+bigint *new_bigint (size_t length) {
+   bigint *bigint = malloc (sizeof (struct bigint));
+d35 2
+a36 3
+   bigint->tag = bigint_tag;
+   bigint->is_negative = false;
+   bigint->length = length;
+d38 1
+a38 1
+   bigint->buffer = calloc (length, sizeof (char));
+d45 3
+a47 3
+   size_t length = strlen (string);
+   assert (length > 0);
+   bigint *bigint = new_bigint (length);
+d49 1
+a49 1
+      bigint->is_negative = true;
+d51 1
+a51 1
+      --length;
+d54 2
+a55 2
+   while (--length > 0) {
+      char digit = string[length] - '0';
+a64 1
+   assert (is_bigint (bigint));
+a65 1
+   memset (bigint, 0, sizeof (bigint));
+a69 1
+   assert (is_bigint (bigint));
+a72 2
+   assert (is_bigint (left));
+   assert (is_bigint (right));
+a76 2
+   assert (is_bigint (left));
+   assert (is_bigint (right));
+a80 2
+   assert (is_bigint (left));
+   assert (is_bigint (right));
+a83 4
+bool is_bigint (bigint *bigint) {
+   return false;
+}
+
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.2 2013-02-19 12:31:09-08 - - $
+a58 1
+      // LINTED (assignment of 32-bit integer to 8-bit integer)
+d70 3
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.1 2013-02-15 19:41:09-08 - - $
+d47 1
+a47 1
+bigint *new_bigint_string (char *string) {
+d50 1
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.c,v 1.3 2012-03-06 16:27:19-08 - - $
+d72 1
+a72 1
+void print_bigint (bigint *bigint) {
+@

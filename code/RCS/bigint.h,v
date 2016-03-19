@@ -1,0 +1,193 @@
+head	1.7;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.7
+date	2014.01.25.02.33.47;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.05.08.04.14.09;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.05.04.02.33.54;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.05.02.21.15.47;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.19.20.36.45;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.19.20.31.09;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.16.03.41.09;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@-
+@
+text
+@// $Id: bigint.h,v 1.6 2013-05-07 21:14:09-07 - - $
+
+#ifndef __BIGINT_H__
+#define __BIGINT_H__
+
+#include <stdbool.h>
+
+typedef struct bigint bigint;
+
+typedef bigint *(*bigint_binop) (bigint*, bigint*);
+
+bigint *new_bigint (size_t capacity);
+
+bigint *new_string_bigint (char *string);
+
+void free_bigint (bigint*);
+
+void print_bigint (bigint*, FILE*);
+
+bigint *add_bigint (bigint*, bigint*);
+
+bigint *sub_bigint (bigint*, bigint*);
+
+bigint *mul_bigint (bigint*, bigint*);
+
+void show_bigint (bigint*);
+
+#endif
+
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.h,v 1.5 2013-05-03 19:33:54-07 - - $
+d10 1
+a10 1
+typedef bigint *(*bigint_binop) (bigint *, bigint *);
+d16 1
+a16 1
+void free_bigint (bigint *);
+d18 1
+a18 1
+void print_bigint (bigint *, FILE *);
+d20 1
+a20 1
+bigint *add_bigint (bigint *, bigint *);
+d22 1
+a22 1
+bigint *sub_bigint (bigint *, bigint *);
+d24 1
+a24 1
+bigint *mul_bigint (bigint *, bigint *);
+d26 1
+a26 1
+void show_bigint (bigint *);
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.h,v 1.4 2013-05-02 14:15:47-07 - - $
+d20 1
+a20 1
+bigint *add_bigint (bigint *left, bigint *right);
+d22 1
+a22 1
+bigint *sub_bigint (bigint *left, bigint *right);
+d24 3
+a26 1
+bigint *mul_bigint (bigint *left, bigint *right);
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.h,v 1.3 2013-02-19 12:36:45-08 - - $
+d12 1
+a12 1
+bigint *new_bigint (size_t size);
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.h,v 1.2 2013-02-19 12:31:09-08 - - $
+d12 1
+a12 1
+bigint *new_bigint (size_t length);
+a25 2
+bool is_bigint (bigint *);
+
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.h,v 1.1 2013-02-15 19:41:09-08 - - $
+d14 1
+a14 1
+bigint *new_bigint_string (char *string);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: bigint.h,v 1.2 2012-03-05 20:19:38-08 - - $
+d18 1
+a18 1
+void print_bigint (bigint *);
+@

@@ -1,0 +1,1045 @@
+head	1.44;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.44
+date	2014.03.03.05.17.29;	author -;	state -;
+branches;
+next	1.43;
+
+1.43
+date	2014.03.03.00.02.12;	author -;	state -;
+branches;
+next	1.42;
+
+1.42
+date	2014.03.02.23.58.18;	author -;	state -;
+branches;
+next	1.41;
+
+1.41
+date	2014.03.02.21.56.12;	author -;	state -;
+branches;
+next	1.40;
+
+1.40
+date	2014.03.02.21.55.28;	author -;	state -;
+branches;
+next	1.39;
+
+1.39
+date	2014.03.02.01.02.25;	author -;	state -;
+branches;
+next	1.38;
+
+1.38
+date	2014.03.02.00.48.44;	author -;	state -;
+branches;
+next	1.37;
+
+1.37
+date	2014.03.02.00.47.39;	author -;	state -;
+branches;
+next	1.36;
+
+1.36
+date	2014.03.01.23.17.41;	author -;	state -;
+branches;
+next	1.35;
+
+1.35
+date	2014.03.01.22.34.11;	author -;	state -;
+branches;
+next	1.34;
+
+1.34
+date	2014.03.01.22.30.17;	author -;	state -;
+branches;
+next	1.33;
+
+1.33
+date	2014.03.01.22.27.15;	author -;	state -;
+branches;
+next	1.32;
+
+1.32
+date	2014.03.01.22.09.49;	author -;	state -;
+branches;
+next	1.31;
+
+1.31
+date	2014.03.01.20.18.54;	author -;	state -;
+branches;
+next	1.30;
+
+1.30
+date	2014.03.01.05.43.09;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2014.03.01.04.17.55;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2014.03.01.04.13.42;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2014.03.01.04.13.06;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2014.03.01.04.12.36;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2014.03.01.04.07.32;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2014.03.01.04.05.59;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2014.03.01.04.05.35;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2014.03.01.04.05.01;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2014.03.01.04.04.18;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2014.03.01.04.03.54;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2014.03.01.04.03.22;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2014.03.01.04.02.46;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2014.03.01.03.59.30;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2014.03.01.03.58.39;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2014.03.01.03.56.10;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2014.03.01.03.54.29;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2014.03.01.03.50.39;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2014.03.01.03.50.11;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2014.03.01.03.45.55;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2014.03.01.03.44.19;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2014.02.28.22.17.42;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2013.05.09.05.09.41;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2013.05.08.04.14.09;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2013.05.02.21.15.47;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2013.02.19.22.39.01;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.02.19.22.35.33;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.02.19.20.36.45;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.02.19.20.31.09;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.02.16.03.41.09;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.44
+log
+@-
+@
+text
+@// Patrick Russell pcrussel
+// $Id: main.c,v 1.43 2014-03-02 16:02:12-08 - - $
+
+#include <assert.h>
+#include <ctype.h>
+#include <libgen.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include "bigint.h"
+#include "debug.h"
+#include "stack.h"
+#include "token.h"
+
+void do_push (stack *stack, char *numstr) {
+   bigint *bigint = new_string_bigint (numstr);
+   push_stack (stack, bigint);
+}
+
+void do_binop (stack *stack, bigint_binop binop) {
+   bigint *right = pop_stack (stack);
+   bigint *left = pop_stack (stack);
+   bigint *answer = binop (left, right);
+   push_stack (stack, answer);
+   free_bigint (left);
+   free_bigint (right);
+}
+
+void do_clear (stack *stack) {
+   while (! empty_stack (stack)) {
+      bigint *bigint = pop_stack (stack);
+      free_bigint (bigint);
+   }
+}
+
+
+void do_print (stack *stack) {
+   print_bigint (first_item (stack), stdout);
+}
+
+void do_print_all (stack *stack) {
+   int size = size_stack (stack);
+   for (int index = 0; index < size; ++index) {
+      print_bigint (peek_stack (stack, index), stdout);
+   }
+}
+
+void unimplemented (int oper) {
+   printf ("%s: ", program_name);
+   if (isgraph (oper)) printf ("'%c' (0%o)", oper, oper);
+                  else printf ("0%o", oper);
+   printf (" unimplemented\n");
+}
+
+void scan_options (int argc, char **argv) {
+   opterr = false;
+   for (;;) {
+      int option = getopt (argc, argv, "@@:");
+      if (option == EOF) break;
+      switch (option) {
+         case '@@': set_debug_flags (optarg);
+                   break;
+         default : printf ("%s: -%c: invalid option\n",
+                           program_name, optopt);
+                   break;
+      }
+   }
+}
+
+int main (int argc, char **argv) {
+   program_name = basename (argv[0]);
+   scan_options (argc, argv);
+   stack *stack = new_stack ();
+   token *scanner = new_token (stdin);
+   for (;;) {
+      int token = scan_token(scanner);
+      if (token == EOF) break;
+      switch (token) {
+         case NUMBER: do_push (stack, peek_token (scanner)); break;
+         case '+': do_binop (stack, add_bigint); break;
+         case '-': do_binop (stack, sub_bigint); break;
+         case '*': do_binop (stack, mul_bigint); break;
+         case 'c': do_clear (stack); break;
+         case 'f': do_print_all (stack); break;
+         case 'p': do_print (stack); break;
+         default: unimplemented (token); break;
+      }
+   }
+   return EXIT_SUCCESS;
+}
+@
+
+
+1.43
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.42 2014-03-02 15:58:18-08 - - $
+a17 1
+   DEBUGF ('m', "stack=%p, numstr=%p=\"%s\"\n", stack, numstr, numstr);
+a22 1
+   DEBUGS ('m', show_stack (stack));
+a31 1
+   DEBUGF ('m', "stack=%p\n", stack);
+a39 1
+   DEBUGS ('m', show_stack (stack));
+a43 1
+   DEBUGS ('m', show_stack (stack));
+a90 1
+   DEBUGF ('m', "EXIT %d\n", exit_status);
+@
+
+
+1.42
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.41 2014-03-02 13:56:12-08 - - $
+d44 1
+a44 1
+   print_bigint (peek_stack (stack, 0), stdout);
+a77 1
+   //set_debug_flags("@@");
+@
+
+
+1.41
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.40 2014-03-02 13:55:28-08 - - $
+d78 1
+a78 1
+   set_debug_flags("@@");
+@
+
+
+1.40
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.39 2014-03-01 17:02:25-08 - - $
+a24 1
+   printf("right before pop_stack\n");
+a25 1
+   printf("right = %i\n", get_digits(right));
+a26 1
+   printf("left = %i\n", get_digits(left));
+@
+
+
+1.39
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.38 2014-03-01 16:48:44-08 - - $
+a88 1
+      //printf("%u\n", token);
+@
+
+
+1.38
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.37 2014-03-01 16:47:39-08 - - $
+d29 1
+a29 1
+   printf("left = %i\n", get_digits(right));
+@
+
+
+1.37
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.36 2014-03-01 15:17:41-08 - - $
+d25 1
+@
+
+
+1.36
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.35 2014-03-01 14:34:11-08 - - $
+d26 1
+d28 1
+@
+
+
+1.35
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.34 2014-03-01 14:30:17-08 - - $
+a19 1
+   printf("bigint = %i\n", get_digits(bigint));
+@
+
+
+1.34
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.33 2014-03-01 14:27:15-08 - - $
+d20 1
+a20 1
+   printf("bigint = %s\n", bigint->get_digits);
+@
+
+
+1.33
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.32 2014-03-01 14:09:49-08 - - $
+d20 1
+a20 1
+   printf("bigint = %s\n", bigint);
+@
+
+
+1.32
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.31 2014-03-01 12:18:54-08 - - $
+d20 1
+@
+
+
+1.31
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.30 2014-02-28 21:43:09-08 - - $
+a44 1
+   printf("end of do_print");
+@
+
+
+1.30
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.29 2014-02-28 20:17:55-08 - - $
+d45 1
+@
+
+
+1.29
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.28 2014-02-28 20:13:42-08 - - $
+a42 1
+   printf("do_print started\n");
+a43 1
+   printf("DEBUGS didn't crash");
+a44 1
+   printf("print_bigint worked");
+@
+
+
+1.28
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.27 2014-02-28 20:13:06-08 - - $
+d43 1
+a43 1
+   printf("do_print started");
+d97 1
+a97 1
+         case 'p': printf("p is in"); do_print (stack); break;
+@
+
+
+1.27
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.26 2014-02-28 20:12:36-08 - - $
+d81 1
+a81 1
+   set_debug_flags('@@');
+@
+
+
+1.26
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.25 2014-02-28 20:07:32-08 - - $
+d81 1
+a81 1
+   set_debug_flags(@@);
+@
+
+
+1.25
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.24 2014-02-28 20:05:59-08 - - $
+d81 1
+d89 1
+a89 1
+      printf("%u\n", token);
+@
+
+
+1.24
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.23 2014-02-28 20:05:35-08 - - $
+d88 1
+a88 1
+      printf("%f\n", token);
+@
+
+
+1.23
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.22 2014-02-28 20:05:01-08 - - $
+d88 1
+a88 1
+      printf("%s\n", token);
+@
+
+
+1.22
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.21 2014-02-28 20:04:18-08 - - $
+d86 1
+a86 1
+      char token = scan_token(scanner);
+@
+
+
+1.21
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.20 2014-02-28 20:03:54-08 - - $
+d86 1
+a86 1
+      int token = scan_token(scanner);
+d88 1
+a88 1
+      printf("%d\n", token);
+@
+
+
+1.20
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.19 2014-02-28 20:03:22-08 - - $
+d88 1
+a88 1
+      printf("%s\n", token);
+@
+
+
+1.19
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.18 2014-02-28 20:02:46-08 - - $
+d88 1
+@
+
+
+1.18
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.17 2014-02-28 19:59:30-08 - - $
+d88 1
+a88 1
+      switch (char_token) {
+d96 1
+a96 1
+         default: unimplemented (char_token); break;
+@
+
+
+1.17
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.16 2014-02-28 19:58:39-08 - - $
+d86 1
+a86 10
+      int token;
+      char char_token;
+      if(scan_token(scanner) == NUMBER){
+         token = scan_token (scanner);
+         printf("%d\n", token);
+      }else{
+         char_token = scan_token(scanner);
+         printf("%s\n", char_token);
+      }
+      if (char_token == EOF) break;
+a87 5
+
+      if (token != NULL){
+         do_push (stack, peek_token (scanner)); 
+         break;
+      }
+d89 1
+a89 1
+         //case NUMBER: do_push (stack, peek_token (scanner)); break;
+@
+
+
+1.16
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.15 2014-02-28 19:56:10-08 - - $
+d86 2
+a87 2
+      int token = NULL;
+      char char_token = NULL;
+@
+
+
+1.15
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.14 2014-02-28 19:54:29-08 - - $
+d86 2
+d89 1
+a89 1
+         int token = scan_token (scanner);
+a90 1
+         do_push (stack, peek_token(scanner));
+d92 1
+a92 1
+         char char_token = scan_token(scanner);
+d96 6
+@
+
+
+1.14
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.13 2014-02-28 19:50:39-08 - - $
+d94 1
+a94 1
+      if (token == EOF) break;
+d103 1
+a103 1
+         default: unimplemented (token); break;
+@
+
+
+1.13
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.12 2014-02-28 19:50:11-08 - - $
+d86 8
+a93 2
+      int token = scan_token (scanner);
+      printf("%i\n", token);
+d95 2
+a96 2
+      switch (token) {
+         case NUMBER: do_push (stack, peek_token (scanner)); break;
+@
+
+
+1.12
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.11 2014-02-28 19:45:55-08 - - $
+d87 1
+a87 1
+      printf("%i\n");
+@
+
+
+1.11
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.10 2014-02-28 19:44:19-08 - - $
+a84 1
+   printf("starting for loop");
+d87 1
+@
+
+
+1.10
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.9 2014-02-28 14:17:42-08 - - $
+d85 1
+d96 1
+a96 1
+         case 'p': do_print (stack); break;
+@
+
+
+1.9
+log
+@-
+@
+text
+@d2 1
+a2 1
+// $Id: main.c,v 1.8 2013-05-08 22:09:41-07 - - $
+d43 1
+d45 1
+d47 1
+@
+
+
+1.8
+log
+@-
+@
+text
+@d1 2
+a2 1
+// $Id: main.c,v 1.7 2013-05-07 21:14:09-07 - - $
+@
+
+
+1.7
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: main.c,v 1.6 2013-05-02 14:15:47-07 - - $
+d16 3
+a18 12
+char *execname = NULL;
+
+bool not_enough (stack *stack, int enough) {
+   DEBUGF ('m', "stack=%p, enough=%d\n", stack, enough);
+   if (size_stack (stack) >= enough) return true;
+   printf ("%s: stack empty\n", execname);
+   return false;
+}
+
+void do_push (stack *stack, char *yytext) {
+   DEBUGF ('m', "stack=%p, yytext=%p=\"%s\"\n", stack, yytext, yytext);
+   bigint *bigint = new_string_bigint (yytext);
+a23 1
+   if (not_enough (stack, 2)) return;
+a42 1
+   if (not_enough (stack, 1)) return;
+d55 1
+a55 1
+   printf ("%s: ", execname);
+d64 1
+a64 1
+      int option = getopt (argc, argv, "y@@:");
+d70 1
+a70 1
+                           execname, optopt);
+d95 1
+@
+
+
+1.6
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: main.c,v 1.5 2013-02-19 14:39:01-08 - - $
+d12 1
+a12 1
+#include "debugf.h"
+d32 1
+a32 1
+   DEBUGF ('m', "stack=%p, binop=%p\n", stack, binop);
+d52 1
+a52 1
+   DEBUGF ('m', "stack=%p\n", stack);
+d58 1
+a58 1
+   DEBUGF ('m', "stack=%p\n", stack);
+d78 1
+a78 1
+         case '@@': set_debugflags (optarg);
+@
+
+
+1.5
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: main.c,v 1.4 2013-02-19 14:35:33-08 - - $
+d20 1
+a20 1
+   if (length_stack (stack) >= enough) return true;
+d44 1
+a44 1
+   while (! is_empty_stack (stack)) {
+d59 2
+a60 2
+   int length = length_stack (stack);
+   for (int index = 0; index < length; ++index) {
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: main.c,v 1.3 2013-02-19 12:36:45-08 - - $
+a17 2
+#define DO_NOTHING(X) {DEBUGF ('s', ""); return X; }
+
+d19 1
+a19 1
+   DO_NOTHING(false);
+d26 1
+a26 1
+   DO_NOTHING();
+d32 1
+a32 1
+   DO_NOTHING();
+d43 1
+a43 1
+   DO_NOTHING();
+d52 1
+a52 1
+   DO_NOTHING();
+d58 1
+a58 1
+   DO_NOTHING();
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: main.c,v 1.2 2013-02-19 12:31:09-08 - - $
+d90 1
+a90 2
+   execname = basename (argv[0]);
+   set_execname (execname);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: main.c,v 1.1 2013-02-15 19:41:09-08 - - $
+d29 1
+a29 1
+   bigint *bigint = new_bigint_string (yytext);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: main.c,v 1.3 2012-03-06 16:27:19-08 - - $
+d56 1
+a56 1
+   print_bigint (peek_stack (stack, 0));
+d63 1
+a63 1
+      print_bigint (peek_stack (stack, index));
+@

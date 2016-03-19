@@ -1,0 +1,988 @@
+head	1.30;
+access;
+symbols;
+locks;
+comment	@.\" @;
+
+
+1.30
+date	2014.01.29.00.24.03;	author -;	state -;
+branches;
+next	1.29;
+
+1.29
+date	2014.01.29.00.22.31;	author -;	state -;
+branches;
+next	1.28;
+
+1.28
+date	2014.01.29.00.20.28;	author -;	state -;
+branches;
+next	1.27;
+
+1.27
+date	2014.01.29.00.18.31;	author -;	state -;
+branches;
+next	1.26;
+
+1.26
+date	2014.01.29.00.17.50;	author -;	state -;
+branches;
+next	1.25;
+
+1.25
+date	2014.01.29.00.13.52;	author -;	state -;
+branches;
+next	1.24;
+
+1.24
+date	2014.01.29.00.07.07;	author -;	state -;
+branches;
+next	1.23;
+
+1.23
+date	2014.01.29.00.05.35;	author -;	state -;
+branches;
+next	1.22;
+
+1.22
+date	2014.01.25.02.27.28;	author -;	state -;
+branches;
+next	1.21;
+
+1.21
+date	2014.01.25.02.27.09;	author -;	state -;
+branches;
+next	1.20;
+
+1.20
+date	2014.01.25.02.26.49;	author -;	state -;
+branches;
+next	1.19;
+
+1.19
+date	2014.01.25.02.26.28;	author -;	state -;
+branches;
+next	1.18;
+
+1.18
+date	2014.01.25.02.22.33;	author -;	state -;
+branches;
+next	1.17;
+
+1.17
+date	2014.01.25.02.17.38;	author -;	state -;
+branches;
+next	1.16;
+
+1.16
+date	2014.01.25.02.16.56;	author -;	state -;
+branches;
+next	1.15;
+
+1.15
+date	2014.01.25.02.15.55;	author -;	state -;
+branches;
+next	1.14;
+
+1.14
+date	2014.01.25.02.15.11;	author -;	state -;
+branches;
+next	1.13;
+
+1.13
+date	2014.01.25.02.14.27;	author -;	state -;
+branches;
+next	1.12;
+
+1.12
+date	2014.01.25.02.12.40;	author -;	state -;
+branches;
+next	1.11;
+
+1.11
+date	2014.01.25.02.11.17;	author -;	state -;
+branches;
+next	1.10;
+
+1.10
+date	2014.01.25.02.08.36;	author -;	state -;
+branches;
+next	1.9;
+
+1.9
+date	2014.01.25.02.05.39;	author -;	state -;
+branches;
+next	1.8;
+
+1.8
+date	2014.01.25.02.02.52;	author -;	state -;
+branches;
+next	1.7;
+
+1.7
+date	2014.01.25.02.00.07;	author -;	state -;
+branches;
+next	1.6;
+
+1.6
+date	2014.01.25.01.59.26;	author -;	state -;
+branches;
+next	1.5;
+
+1.5
+date	2014.01.25.01.57.27;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2014.01.25.01.55.13;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2014.01.25.01.54.53;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2014.01.25.01.52.11;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2014.01.25.01.51.35;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.30
+log
+@-
+@
+text
+@.so Tmac.mm-etc
+.if t .Newcentury-fonts
+.INITR* \n[.F]
+.SIZE 12
+.TITLE CMPS-012B Winter\~2014 Program\~4 \
+"Arbitrary Precision Math"
+.RCS \
+"$Id: asg4c-mydc-stackbignum.mm,v 1.29 2014-01-28 16:22:31-08 - - $"
+.PWD
+.URL
+.nr Si \n[Pi]
+.EQ
+delim $$
+define uvec  |{ bold u }|
+define vvec  |{ bold v }|
+define pvec  |{ bold p }|
+define rem   |{ type binary "\f[R]remainder\f[P]" }|
+define ...   |{ type binary { roman "..." } }|
+.EN
+.de code
+.   H 1 "Code\(:) Module \f[CB]\\$1\f[P]"
+..
+.de proto
+.   LI
+.   V= "\\$*"
+.   br
+..
+.H 1 "Overview"
+In this assignment you will implement a subset of the
+.V= dc (1)
+arbitrary precision calculator.
+For specifications, read the man page for that utility,
+and experiment by running
+.V= dc
+itself.
+You will implement six of its operators\(::
+.V= + ,
+.V= - ,
+.V= * ,
+.V= c ,
+.V= f ,
+.V= p .
+Your program will be an executable image called
+.V= mydc .
+.H 1 "Modules in the program"
+The following modules are part of the program.
+For all but
+.V= main
+a header
+.=V ( \&.h )
+file specifies the interface which is accompanied by an
+implementation
+.=V ( \&.c ) 
+file.
+.ALX a ()
+.LI
+Module
+.V= debug
+contains useful debugging and tracing information.
+.LI
+Module
+.V= stack
+is a parameterized stack using an array implementation with
+array doubling to take care of a full stack.
+.LI
+Module
+.V= bigint
+is the important part of this project and handles multiprecision
+integer arithmetic using an array of characters.
+.LI
+Module
+.V= token
+reads long integers providing input to the rest of the program.
+.LI
+Module
+.V= main
+handles user interface, input and output.
+.LE
+.H 1 "Big integer implementation"
+Following is a more detailed discussion of how to implement the
+.V= bigint
+module.
+.ALX a ()
+.LI
+Before attempting to implement
+.V= bigint ,
+perform each of the three operations on paper,
+reminding yourself how to perform the operations without a
+calculator.
+.LI
+A
+.V= bigint
+consists of an array of digits.
+Index 0 has the least significant digit,
+and the end of the array has the most significant digit.
+Each byte contains a single digit in the range $  0 ... 9  $,
+inclusive.
+The capacity field specifies the dimension of the array,
+and the size field specifies the number of significant digits in
+the array,
+with leading zeros suppressed.
+.LI
+Addition,
+if the signs are the same\(::
+call
+.V= do_add
+to actually perform the addition and return a new
+.V= bigint .
+Then set the sign to be the sign of one of the arguments.
+.LI
+Addition, if the signs are different\(::
+call
+.V= do_sub
+with the larger number as its left operand and the smaller number
+as the right operand.
+Then set the sign to that of the larger number.
+.LI
+Subtraction\(::
+if the signs are different, call 
+.V= do_add ,
+otherwise call
+.V= do_sub .
+.LI
+.V= Do_add
+and
+.V= do_sub
+are called from either the addition or subtraction function to do
+the array work.
+Note that it is marked
+.V= static
+and is not called outside of the module.
+.LI
+.V= Do_add
+allocates a new
+.V= bigint
+with space for a number of digits one larger
+than the largest operand.
+Then it loops across each array from index [0] to the end,
+adding and carrying as is done by hand\(::
+.DS I
+.ft CB
+digit = this->digits[index] + that->digits[index] + carry;
+result->digits[index] = digit % 10;
+carry = digit / 10;
+.DE
+There is a little extra trickiness at the high end of the shorter
+number.
+.LI
+.V= Do_sub
+allocates a new
+.V= bigint
+whose size is the same as the left operand,
+and then performs the subtraction instead of additionC\(::
+.DS I
+.ft CB
+digit = this->digits[index] - that->digits[index] - borrow + 10;
+result->digits[index] = digit % 10;
+borrow = 1 - digit / 10;
+.DE
+After computing the result,
+trim off high-order zeros.
+.LI
+Multiplication proceeds by allocating a new
+.V= bigint
+whose size is
+equal to the sum of the sizes of the other two operands.
+If $uvec$ is a vector of size $m$
+and $vvec$ is a vector of size $n$,
+then in $ O ( m n ) $ speed,
+perform an outer loop over one argument and an inner loop over
+the other argument, adding the new partial products to the product
+$pvec$ as you would by hand.
+The algorithm can be described mathematically as follows\(::
+.DS I
+.br
+.S +1 +1
+.br
+$ pvec <- PHI $
+$ for ~ i elem left [ 0 ... m - 1 right ] ~ : $
+$ TAB c <- 0 $
+$ TAB for ~ j elem left [ 0 ... n - 1 right ] ~ : $
+$ TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c $
+$ TAB TAB pvec sub { i + j } <- d rem 10 $
+$ TAB TAB c <- left floor d div 10 right floor $
+$ TAB pvec sub { i + n } <- c $
+.br
+.S -1 -1
+.br
+.DE
+.LI
+The division and remainder algorithms are actually a single
+algorithm which produces both results, 
+then discards the one not needed.
+This algorithm is complicated and not part of this assignment.
+.LI
+Note that
+.V= malloc (3)
+returns uninitialized storage, but
+.V= calloc (3)
+sets its allocated storage to 0,
+so
+.V= new_bigint
+calls 
+.V= calloc ,
+not 
+.V= malloc ,
+to allocate the underlying arrays.
+From the synopsis of
+.V= malloc (3)\(::
+.DS I
+.ft CB
+#include <stdlib.h>
+void *calloc (size_t nmemb, size_t size);
+void *malloc (size_t size);
+void *realloc (void *ptr, size_t size);
+void free (void *ptr);
+.DE
+.LE
+.H 1 "Testing your program"
+Your program should write exactly the same output to both
+.V= stdout
+and
+.V= stderr
+as does
+.V= dc (1),
+provided that inputs do not contain those facilities of
+.V= dc
+that your program is not expected to imitate.
+For example\(::
+.DS I
+.ft CB
+dc <test.in >test-dc.out 2>test-dc.err
+mydc <test.in >test-mydc.out 2>test-mydc.err
+diff test-dc.out test-mydc.out
+diff test-dc.err test-mydc.err
+.DE
+Both of the
+.V= diff (1)
+commands should produce no output for comparing
+.V= stdout ,
+and only a difference in the name of the ELF for
+.V= diff ing
+.V= stderr .
+.H 1 "What to submit"
+Submit
+.V= Makefile ,
+.V= README ,
+and all C source and header files necessary for the grader to
+build your program with the command
+.V= make .
+If you are doing pair programming,
+see the additional requirements.
+.FINISH
+@
+
+
+1.29
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.28 2014-01-28 16:20:28-08 - - $"
+d175 3
+d186 3
+@
+
+
+1.28
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.27 2014-01-28 16:18:31-08 - - $"
+d185 5
+@
+
+
+1.27
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.26 2014-01-28 16:17:50-08 - - $"
+d176 1
+a176 1
+$ for ~ i elem [ 0 ... m - 1 ] ~ : $
+d178 1
+a178 1
+$ TAB for ~ j elem [ 0 ... n - 1 ] ~ : $
+@
+
+
+1.26
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.23 2014-01-28 16:05:35-08 - - $"
+d175 2
+a176 2
+$ pvec <- phi $
+$ for ~ i elem left { 0 ... m - 1 right } ~ : $
+@
+
+
+1.25
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.24 2014-01-28 16:07:07-08 - - $"
+d175 2
+a176 2
+$ pvec <- PHI $
+$ for ~ i elem [ 0 , m ) ~ : $
+d178 1
+a178 1
+$ TAB for ~ j elem [ 0 , n ) ~ : $
+a183 5
+The notation $PHI$ represents a vector filled with zeros.
+The notation $[ a , b )$ is an half-open (or half-closed)
+interval representing the set $ { x | a <= x < b } $,
+i.e.,
+including $a$ but excluding $b$.
+@
+
+
+1.24
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.23 2014-01-28 16:05:35-08 - - $"
+d176 1
+a176 1
+$ for ~ i elem [ 0 ... m - 1 ] ~ : $
+d178 1
+a178 1
+$ TAB for ~ j elem [ 0 ... n - 1 ] ~ : $
+d184 5
+@
+
+
+1.23
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.22 2014-01-24 18:27:28-08 - - $"
+d175 1
+a175 1
+$ pvec <- phi $
+@
+
+
+1.22
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.21 2014-01-24 18:27:09-08 - - $"
+d175 1
+a175 1
+$ pvec <- 0 vec $
+@
+
+
+1.21
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.20 2014-01-24 18:26:49-08 - - $"
+d14 3
+a16 3
+define uvec  |{ bold italic u }|
+define vvec  |{ bold italic v }|
+define pvec  |{ bold italic p }|
+@
+
+
+1.20
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.19 2014-01-24 18:26:28-08 - - $"
+d14 3
+a16 3
+define uvec  |{ bold fat u }|
+define vvec  |{ bold fat v }|
+define pvec  |{ bold fat p }|
+@
+
+
+1.19
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.18 2014-01-24 18:22:33-08 - - $"
+d14 3
+a16 3
+define uvec  |{ fat u }|
+define vvec  |{ fat v }|
+define pvec  |{ fat p }|
+@
+
+
+1.18
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.17 2014-01-24 18:17:38-08 - - $"
+d14 3
+a16 3
+define uvec  |{ bold u }|
+define vvec  |{ bold v }|
+define pvec  |{ bold p }|
+@
+
+
+1.17
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.16 2014-01-24 18:16:56-08 - - $"
+d175 6
+a180 6
+$ pvec <- 0 vec  $
+$ for ~ i elem [ 0 ... m - 1 ] ~ :  $
+$ TAB c <- 0  $
+$ TAB for ~ j elem [ 0 ... n - 1 ] ~ :  $
+$ TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c  $
+$ TAB TAB pvec sub { i + j } <- d rem 10  $
+d182 1
+a182 1
+$ TAB pvec sub { i + n } <- c  $
+@
+
+
+1.16
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.15 2014-01-24 18:15:55-08 - - $"
+d144 1
+a144 1
+carry = left floor digit / 10 right floor;
+d181 1
+a181 1
+$ TAB TAB c <- d div 10  $
+@
+
+
+1.15
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.14 2014-01-24 18:15:11-08 - - $"
+d144 1
+a144 1
+carry = lfloor digit / 10 rfloor;
+@
+
+
+1.14
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.13 2014-01-24 18:14:27-08 - - $"
+d144 1
+a144 1
+carry = digit / 10;
+@
+
+
+1.13
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.12 2014-01-24 18:12:40-08 - - $"
+d199 1
+a199 1
+.DS
+d219 7
+a225 4
+.VTCODE* 1 "dc <test.in >test-dc.out 2>test-dc.err"
+.VTCODE* 1 "mydc <test.in >test-mydc.out 2>test-mydc.err"
+.VTCODE* 1 "diff test-dc.out test-mydc.out"
+.VTCODE* 1 "diff test-dc.err test-mydc.err"
+@
+
+
+1.12
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.11 2014-01-24 18:11:17-08 - - $"
+d154 6
+a159 4
+.VTCODE* 1 \
+"digit = this->digits[index] - that->digits[index] - borrow + 10;"
+.VTCODE* 1 "result->digits[index] = digit % 10;"
+.VTCODE* 1 "borrow = 1 - digit / 10;
+d174 9
+a182 9
+.DS
+.TVCODE* 1 "$ pvec <- 0 vec  $"
+.TVCODE* 1 "$ for ~ i elem [ 0 ... m - 1 ] ~ :  $"
+.TVCODE* 1 "$ TAB c <- 0  $"
+.TVCODE* 1 "$ TAB for ~ j elem [ 0 ... n - 1 ] ~ :  $"
+.TVCODE* 1 "$ TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c  $"
+.TVCODE* 1 "$ TAB TAB pvec sub { i + j } <- d rem 10  $"
+.TVCODE* 1 "$ TAB TAB c <- d div 10  $"
+.TVCODE* 1 "$ TAB pvec sub { i + n } <- c  $"
+d199 8
+a206 5
+.VTCODE* 1 "#include <stdlib.h>"
+.VTCODE* 1 "void *calloc (size_t nmemb, size_t size);"
+.VTCODE* 1 "void *malloc (size_t size);"
+.VTCODE* 1 "void *realloc (void *ptr, size_t size);"
+.VTCODE* 1 "void free (void *ptr);"
+@
+
+
+1.11
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.10 2014-01-24 18:08:36-08 - - $"
+d11 1
+d140 6
+a145 3
+.VTCODE* 1 "digit = this->digits[index] + that->digits[index] + carry;"
+.VTCODE* 1 "result->digits[index] = digit % 10;"
+.VTCODE* 1 "carry = digit / 10;
+@
+
+
+1.10
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.9 2014-01-24 18:05:39-08 - - $"
+d169 8
+a176 8
+$ pvec <- 0 vec  $
+$ for ~ i elem [ 0 ... m - 1 ] ~ :  $
+$ TAB c <- 0  $
+$ TAB for ~ j elem [ 0 ... n - 1 ] ~ :  $
+$ TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c  $
+$ TAB TAB pvec sub { i + j } <- d rem 10  $
+$ TAB TAB c <- d div 10  $
+$ TAB pvec sub { i + n } <- c  $
+@
+
+
+1.9
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.8 2014-01-24 18:02:52-08 - - $"
+d16 1
+a16 1
+define rem   |{ type binary "%" }|
+d170 1
+a170 1
+$ for ~ i elem 0 ... m - 1 ~ :  $
+d172 1
+a172 1
+$ TAB for ~ j elem 0 ... n - 1 ) ~ :  $
+@
+
+
+1.8
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.7 2014-01-24 18:00:07-08 - - $"
+d13 3
+a15 3
+define uvec  |{ u vec }|
+define vvec  |{ v vec }|
+define pvec  |{ p vec }|
+@
+
+
+1.7
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.6 2014-01-24 17:59:26-08 - - $"
+d169 8
+a176 11
+.EQ
+lpile { pvec <- 0 vec 
+above   for ~ i elem 0 ... m - 1 ~ : 
+above   TAB c <- 0 
+above   TAB for ~ j elem 0 ... n - 1 ) ~ : 
+above   TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c 
+above   TAB TAB pvec sub { i + j } <- d rem 10 
+above   TAB TAB c <- d div 10 
+above   TAB pvec sub { i + n } <- c 
+}
+.EN
+@
+
+
+1.6
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.5 2014-01-24 17:57:27-08 - - $"
+d170 8
+a177 9
+lpile {
+above pvec <- 0 vec 
+above for ~ i elem 0 ... m - 1 ~ : 
+above TAB c <- 0 
+above TAB for ~ j elem 0 ... n - 1 ) ~ : 
+above TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c 
+above TAB TAB pvec sub { i + j } <- d rem 10 
+above TAB TAB c <- d div 10 
+above TAB pvec sub { i + n } <- c 
+@
+
+
+1.5
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.4 2014-01-24 17:55:13-08 - - $"
+d170 10
+a179 8
+pvec <- 0 vec 
+for ~ i elem 0 ... m - 1 ~ : 
+TAB c <- 0 
+TAB for ~ j elem 0 ... n - 1 ) ~ : 
+TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c 
+TAB TAB pvec sub { i + j } <- d rem 10 
+TAB TAB c <- d div 10 
+TAB pvec sub { i + n } <- c 
+@
+
+
+1.4
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.3 2014-01-24 17:54:53-08 - - $"
+a10 1
+.GETST* MATH_FIGURE Figure_MATH_FIGURE
+d167 13
+a179 2
+The algorithm can be described mathematically as shown in Figure
+\*[Figure_MATH_FIGURE] (a).
+a200 25
+.DS
+.SP
+.TS
+expand tab(|); |ce |ce |ce |.
+_
+Algorithm (a)|Algorithm (b)|
+_
+.SP
+.nf
+$pvec <- 0 vec $
+$for ~ i elem 0 ... m - 1 ~ : $
+$TAB c <- 0 $
+$TAB for ~ j elem 0 ... n - 1 ) ~ : $
+$TAB TAB d <- pvec sub { i + j } + uvec sub i vvec sub j + c $
+$TAB TAB pvec sub { i + j } <- d rem 10 $
+$TAB TAB c <- d div 10 $
+$TAB pvec sub { i + n } <- c $
+T}|T{
+T}|T{
+.SP
+_
+.TE
+.SP
+.FG "Two vector multiplication algorithms" "" 0 MATH_FIGURE
+.DE
+@
+
+
+1.3
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.2 2014-01-24 17:52:11-08 - - $"
+a198 1
+T{
+@
+
+
+1.2
+log
+@-
+@
+text
+@d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.1 2014-01-24 17:51:35-08 - - $"
+a170 8
+An alternative method of computing the product runs a little more
+slowly because of the extra function calls,
+as shown in Figure \*[Figure_MATH_FIGURE] (b).
+The symbols $+ hat$, $- hat$, $times hat$, $div hat$, etc.,
+represent vector rather than scalar operations.
+A static function must be written for each of these if this
+implementation method is chosen.
+.LI
+d196 1
+a196 1
+Algorithm (a)|Algorithm (b)|Algorithm (c)
+a209 9
+.nf
+$pvec <- 0 vec $
+$while ~ vvec != hat 0 vec ~ : $
+$TAB if ~ odd vvec ~ : $
+$TAB TAB pvec <- pvec + hat uvec $
+$TAB TAB vvec <- vvec - hat 1 vec $
+$TAB else ~ : $
+$TAB TAB uvec <- uvec mul hat 2 vec $
+$TAB TAB vvec <- vvec div hat 2 vec $
+a210 9
+.nf
+// This algorithm is not
+// acceptable because of
+// exponential running time.
+$pvec <- 0 vec $
+$while ~ vvec != hat 0 vec ~ : $
+$TAB pvec <- pvec + hat uvec $
+$TAB vvec <- vvec - hat 1 vec $
+T}
+@
+
+
+1.1
+log
+@-
+@
+text
+@d6 1
+a6 1
+"Stacks and Arbitrary Precision"
+d8 1
+a8 1
+"$Id: asg4c-mydc-stackbignum.mm,v 1.75 2014-01-09 17:57:39-08 - - $"
+@

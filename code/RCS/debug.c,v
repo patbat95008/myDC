@@ -1,0 +1,119 @@
+head	1.4;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.4
+date	2014.02.28.22.21.06;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.05.09.05.09.41;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.05.09.01.53.30;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.05.08.04.14.09;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@-
+@
+text
+@// Patrick Russell pcrussel
+// $Id: debug.c,v 1.3 2013-05-08 22:09:41-07 - - $
+
+#include <assert.h>
+#include <limits.h>
+#include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "debug.h"
+
+static char debug_flags[UCHAR_MAX + 1];
+char *program_name = NULL;
+int exit_status = EXIT_SUCCESS;
+
+void set_debug_flags (char *flags) {
+   if (strchr (flags, '@@') != NULL) {
+      memset (debug_flags, true, sizeof debug_flags);
+   }else {
+      for (char *flag = flags; *flag != '\0'; ++flag) {
+         debug_flags[(unsigned char) *flag] = true;
+      }
+   }
+}
+
+bool get_debug_flag (char flag) {
+   return debug_flags[(unsigned char) flag];
+}
+
+void __show_debug (char flag, char *file, int line, const char *func) {
+   fflush (NULL);
+   assert (program_name != NULL);
+   fprintf (stderr, "%s: DEBUGF(%c): %s[%d]: %s()\n",
+            program_name, flag, file, line, func);
+}
+
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 2
+a2 1
+// $Id: debug.c,v 1.2 2013-05-08 18:53:30-07 - - $
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: debug.c,v 1.1 2013-05-07 21:14:09-07 - - $
+d17 1
+a17 1
+   if (strchr (debug_flags, '@@') != NULL) {
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: debugf.c,v 1.4 2013-02-19 14:39:01-08 - - $
+d30 1
+a30 1
+void __debug_start (char flag, char *file, int line, const char *func) {
+a36 4
+void __debug_finish (void) {
+   fflush (NULL);
+}
+
+@

@@ -1,0 +1,200 @@
+head	1.5;
+access;
+symbols;
+locks;
+comment	@ * @;
+
+
+1.5
+date	2014.01.25.02.33.47;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2013.05.16.22.07.42;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2013.05.16.22.04.42;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2013.05.09.01.53.30;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2013.05.08.04.14.09;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@-
+@
+text
+@// $Id: debug.h,v 1.4 2013-05-16 15:07:42-07 - - $
+
+#ifndef __DEBUG_H__
+#define __DEBUG_H__
+
+#include <stdbool.h>
+
+//
+// DESCRIPTION
+//    Debugging library containing miscellaneous useful things.
+//
+
+//
+// Program name and exit status.
+//
+extern char *program_name;
+extern int exit_status;
+
+//
+// Support for STUB statements.
+//
+#define STUB(STMT) STMT
+
+//
+// Sets a string of debug flags to be used by DEBUGF and DEBUGS.
+// If a particular debug flag has been set, messages are printed.
+// The flag "@@" turns on all flags.
+//
+void set_debug_flags (char *flags);
+
+//
+// Check if a debug flag is set.
+//
+bool get_debug_flag (char flag);
+
+//
+// DEBUGF takes printf-like arguments.
+// DEBUGS takes any fprintf(stderr...) statement as an argument.
+//
+#define DEBUGF(FLAG,...) \
+        if (get_debug_flag (FLAG)) { \
+           __show_debug (FLAG, __FILE__, __LINE__, __func__); \
+           fprintf (stderr, __VA_ARGS__); \
+           fflush (NULL); \
+        }
+#define DEBUGS(FLAG,STMT) \
+        if (get_debug_flag (FLAG)) { \
+           __show_debug (FLAG, __FILE__, __LINE__, __func__); \
+           STMT; \
+           fflush (NULL); \
+        }
+void __show_debug (char flag, char *file, int line, const char *func);
+
+#endif
+
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: debug.h,v 1.2 2013-05-08 18:53:30-07 - - $
+a39 4
+#ifdef NDEBUG
+#define DEBUGF(FLAG,...)
+#define DEBUGS(FLAG,STMT)
+#else
+a52 1
+#endif
+@
+
+
+1.3
+log
+@-
+@
+text
+@d46 1
+a46 1
+           __show_debug (__FILE__, __LINE__, __func__); \
+d52 1
+a52 1
+           __show_debug (__FILE__, __LINE__, __func__); \
+d56 1
+a56 1
+void __show_debug (char *file, int line, const char *func);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: debug.h,v 1.1 2013-05-07 21:14:09-07 - - $
+d46 1
+a46 1
+           __show_debug (FLAG, __FILE__, __LINE__, __func__); \
+d52 1
+a52 1
+           __show_debug (FLAG, __FILE__, __LINE__, __func__); \
+d56 1
+a56 1
+void __show_debug (char flag, char *file, int line, const char *func);
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: debugf.h,v 1.2 2013-02-19 14:35:33-08 - - $
+d25 2
+a26 8
+// Debugging utility.
+//
+
+//
+// Sets a string of debug flags to be used by DEBUGF statements.
+// Uses the address of the string, and does not copy it, so it
+// must not be dangling.  If a particular debug flag has been set,
+// messages are printed.  The format is identical to printf format.
+d32 1
+a32 1
+// Find out if a debug flag is set.
+d36 4
+a43 4
+
+void __debug_start (char flag, char *file, int line, const char *func);
+void __debug_finish (void);
+
+d46 1
+a46 1
+           __debug_start (FLAG, __FILE__, __LINE__, __func__); \
+d48 1
+a48 1
+           __debug_finish(); \
+a49 1
+
+d52 1
+a52 1
+           __debug_start (FLAG, __FILE__, __LINE__, __func__); \
+d54 1
+a54 1
+           __debug_finish(); \
+d56 1
+a56 1
+
+@
